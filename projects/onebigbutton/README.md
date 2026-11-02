@@ -8,6 +8,8 @@
 
 目录和需求已建立，尚未选定器件、编写固件或验证切换效果。
 
+已有 [A0 原理图接线参考](hardware/schematic-reference/README.md)，由用户自行在嘉立创EDA连接；尚未完成原生原理图与 PCB。
+
 首版：USB 有线，Windows 11 + 微信输入法，模拟 Ctrl + 空格；直接制作 PCB 原型，跳过面包板。
 
 - [需求与待确认事项](docs/requirements.md)

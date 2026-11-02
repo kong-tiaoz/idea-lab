@@ -1,0 +1,1396 @@
+{
+  "revision": "A0",
+  "status": "reference-only; no ERC or simulation",
+  "components": [
+    {
+      "ref": "U1",
+      "value": "RP2040",
+      "package": "QFN-56 + exposed pad 57"
+    },
+    {
+      "ref": "U2",
+      "value": "AP2112K-3.3TRG1",
+      "package": "SOT-25 / SOT-23-5"
+    },
+    {
+      "ref": "U3",
+      "value": "W25Q16JVSNIQ / 2 MB",
+      "package": "SOIC-8 150 mil"
+    },
+    {
+      "ref": "U4",
+      "value": "ST USBLC6-2SC6",
+      "package": "SOT-23-6"
+    },
+    {
+      "ref": "J1",
+      "value": "USB-C USB2.0 receptacle",
+      "package": "16-contact logical pinout / footprint TBD"
+    },
+    {
+      "ref": "J2",
+      "value": "External NO momentary button",
+      "package": "2-pin connector TBD"
+    },
+    {
+      "ref": "J3",
+      "value": "SWD header / pads",
+      "package": "4-pin 2.54 mm or test pads"
+    },
+    {
+      "ref": "R1",
+      "value": "5.1k 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R2",
+      "value": "5.1k 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R3",
+      "value": "27R 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R4",
+      "value": "27R 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R5",
+      "value": "10k 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R6",
+      "value": "1k 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R7",
+      "value": "1k 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R8",
+      "value": "10k 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R9",
+      "value": "10k 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R10",
+      "value": "1k 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "R11",
+      "value": "1k 1%",
+      "package": "0603"
+    },
+    {
+      "ref": "C1",
+      "value": "1uF / 10V",
+      "package": "0603"
+    },
+    {
+      "ref": "C2",
+      "value": "4.7uF / 10V",
+      "package": "0603"
+    },
+    {
+      "ref": "C3",
+      "value": "100nF / 10V",
+      "package": "0603"
+    },
+    {
+      "ref": "C4",
+      "value": "1uF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C5",
+      "value": "1uF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C6",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C7",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C8",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C9",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C10",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C11",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C12",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C13",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C14",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C15",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C16",
+      "value": "100nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "C17",
+      "value": "15pF C0G / 50V",
+      "package": "0603"
+    },
+    {
+      "ref": "C18",
+      "value": "15pF C0G / 50V",
+      "package": "0603"
+    },
+    {
+      "ref": "C19",
+      "value": "10nF / 6.3V",
+      "package": "0603"
+    },
+    {
+      "ref": "Y1",
+      "value": "ABM8-272-T3 / 12 MHz / CL=10pF",
+      "package": "3.2 x 2.5 mm"
+    },
+    {
+      "ref": "SW1",
+      "value": "BOOTSEL NO momentary",
+      "package": "2-terminal logical switch"
+    },
+    {
+      "ref": "SW2",
+      "value": "RESET NO momentary",
+      "package": "2-terminal logical switch"
+    },
+    {
+      "ref": "D1",
+      "value": "Green status LED optional",
+      "package": "0603"
+    }
+  ],
+  "pins": [
+    {
+      "ref": "U1",
+      "pin": "1",
+      "name": "IOVDD",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "name": "IOVDD",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "22",
+      "name": "IOVDD",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "33",
+      "name": "IOVDD",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "42",
+      "name": "IOVDD",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "49",
+      "name": "IOVDD",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "19",
+      "name": "TESTEN",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "20",
+      "name": "XIN",
+      "net": "XIN",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "21",
+      "name": "XOUT",
+      "net": "XOUT",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "23",
+      "name": "DVDD",
+      "net": "+1V1",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "24",
+      "name": "SWCLK",
+      "net": "SWCLK",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "25",
+      "name": "SWDIO",
+      "net": "SWDIO",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "26",
+      "name": "RUN",
+      "net": "RUN",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "43",
+      "name": "ADC_AVDD",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "44",
+      "name": "VREG_VIN",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "45",
+      "name": "VREG_VOUT",
+      "net": "+1V1",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "46",
+      "name": "USB_DM",
+      "net": "USB_DM_MCU",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "47",
+      "name": "USB_DP",
+      "net": "USB_DP_MCU",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "48",
+      "name": "USB_VDD",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "50",
+      "name": "DVDD",
+      "net": "+1V1",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "51",
+      "name": "QSPI_SD3",
+      "net": "QSPI_SD3",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "52",
+      "name": "QSPI_SCLK",
+      "net": "QSPI_SCLK",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "53",
+      "name": "QSPI_SD0",
+      "net": "QSPI_SD0",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "54",
+      "name": "QSPI_SD2",
+      "net": "QSPI_SD2",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "55",
+      "name": "QSPI_SD1",
+      "net": "QSPI_SD1",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "56",
+      "name": "QSPI_SS_N",
+      "net": "QSPI_CS_N",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "57",
+      "name": "EP / GND",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "name": "GPIO0",
+      "net": "BTN_N",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "name": "GPIO1",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "name": "GPIO2",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "name": "GPIO3",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "6",
+      "name": "GPIO4",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "name": "GPIO5",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "name": "GPIO6",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "name": "GPIO7",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "name": "GPIO8",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "name": "GPIO9",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "name": "GPIO10",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "14",
+      "name": "GPIO11",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "name": "GPIO12",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "name": "GPIO13",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "17",
+      "name": "GPIO14",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "18",
+      "name": "GPIO15",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "27",
+      "name": "GPIO16",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "28",
+      "name": "GPIO17",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "29",
+      "name": "GPIO18",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "30",
+      "name": "GPIO19",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "31",
+      "name": "GPIO20",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "32",
+      "name": "GPIO21",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "34",
+      "name": "GPIO22",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "35",
+      "name": "GPIO23",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "36",
+      "name": "GPIO24",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "37",
+      "name": "GPIO25",
+      "net": "STATUS_LED",
+      "noConnect": false
+    },
+    {
+      "ref": "U1",
+      "pin": "38",
+      "name": "GPIO26",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "39",
+      "name": "GPIO27",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "40",
+      "name": "GPIO28",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U1",
+      "pin": "41",
+      "name": "GPIO29",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "name": "VIN",
+      "net": "VBUS",
+      "noConnect": false
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "name": "GND",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "name": "EN",
+      "net": "VBUS",
+      "noConnect": false
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "name": "NC",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "name": "VOUT",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U3",
+      "pin": "1",
+      "name": "/CS",
+      "net": "QSPI_CS_N",
+      "noConnect": false
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "name": "DO / IO1",
+      "net": "QSPI_SD1",
+      "noConnect": false
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "name": "/WP / IO2",
+      "net": "QSPI_SD2",
+      "noConnect": false
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "name": "GND",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "U3",
+      "pin": "5",
+      "name": "DI / IO0",
+      "net": "QSPI_SD0",
+      "noConnect": false
+    },
+    {
+      "ref": "U3",
+      "pin": "6",
+      "name": "CLK",
+      "net": "QSPI_SCLK",
+      "noConnect": false
+    },
+    {
+      "ref": "U3",
+      "pin": "7",
+      "name": "/HOLD / IO3",
+      "net": "QSPI_SD3",
+      "noConnect": false
+    },
+    {
+      "ref": "U3",
+      "pin": "8",
+      "name": "VCC",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "U4",
+      "pin": "1",
+      "name": "IO1",
+      "net": "USB_DP",
+      "noConnect": false
+    },
+    {
+      "ref": "U4",
+      "pin": "6",
+      "name": "IO1",
+      "net": "USB_DP",
+      "noConnect": false
+    },
+    {
+      "ref": "U4",
+      "pin": "2",
+      "name": "GND",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "U4",
+      "pin": "5",
+      "name": "VBUS",
+      "net": "VBUS",
+      "noConnect": false
+    },
+    {
+      "ref": "U4",
+      "pin": "3",
+      "name": "IO2",
+      "net": "USB_DM",
+      "noConnect": false
+    },
+    {
+      "ref": "U4",
+      "pin": "4",
+      "name": "IO2",
+      "net": "USB_DM",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "A4",
+      "name": "A4",
+      "net": "VBUS",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "A9",
+      "name": "A9",
+      "net": "VBUS",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "B4",
+      "name": "B4",
+      "net": "VBUS",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "B9",
+      "name": "B9",
+      "net": "VBUS",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "A1",
+      "name": "A1",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "A12",
+      "name": "A12",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "B1",
+      "name": "B1",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "B12",
+      "name": "B12",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "SHIELD",
+      "name": "SHIELD",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "A5",
+      "name": "CC1",
+      "net": "CC1",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "B5",
+      "name": "CC2",
+      "net": "CC2",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "A6",
+      "name": "D+",
+      "net": "USB_DP",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "B6",
+      "name": "D+",
+      "net": "USB_DP",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "A7",
+      "name": "D-",
+      "net": "USB_DM",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "B7",
+      "name": "D-",
+      "net": "USB_DM",
+      "noConnect": false
+    },
+    {
+      "ref": "J1",
+      "pin": "A8",
+      "name": "SBU1",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "J1",
+      "pin": "B8",
+      "name": "SBU2",
+      "net": "",
+      "noConnect": true
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "name": "SW",
+      "net": "BTN_EXT",
+      "noConnect": false
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "name": "GND",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "name": "VTREF",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "name": "SWCLK",
+      "net": "SWCLK",
+      "noConnect": false
+    },
+    {
+      "ref": "J3",
+      "pin": "3",
+      "name": "SWDIO",
+      "net": "SWDIO",
+      "noConnect": false
+    },
+    {
+      "ref": "J3",
+      "pin": "4",
+      "name": "GND",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "name": "1",
+      "net": "CC1",
+      "noConnect": false
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "name": "1",
+      "net": "CC2",
+      "noConnect": false
+    },
+    {
+      "ref": "R2",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "name": "1",
+      "net": "USB_DP",
+      "noConnect": false
+    },
+    {
+      "ref": "R3",
+      "pin": "2",
+      "name": "2",
+      "net": "USB_DP_MCU",
+      "noConnect": false
+    },
+    {
+      "ref": "R4",
+      "pin": "1",
+      "name": "1",
+      "net": "USB_DM",
+      "noConnect": false
+    },
+    {
+      "ref": "R4",
+      "pin": "2",
+      "name": "2",
+      "net": "USB_DM_MCU",
+      "noConnect": false
+    },
+    {
+      "ref": "R5",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "name": "2",
+      "net": "QSPI_CS_N",
+      "noConnect": false
+    },
+    {
+      "ref": "R6",
+      "pin": "1",
+      "name": "1",
+      "net": "QSPI_CS_N",
+      "noConnect": false
+    },
+    {
+      "ref": "R6",
+      "pin": "2",
+      "name": "2",
+      "net": "BOOT_SW",
+      "noConnect": false
+    },
+    {
+      "ref": "R7",
+      "pin": "1",
+      "name": "1",
+      "net": "XOUT",
+      "noConnect": false
+    },
+    {
+      "ref": "R7",
+      "pin": "2",
+      "name": "2",
+      "net": "XTAL_OUT",
+      "noConnect": false
+    },
+    {
+      "ref": "R8",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "R8",
+      "pin": "2",
+      "name": "2",
+      "net": "RUN",
+      "noConnect": false
+    },
+    {
+      "ref": "R9",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "R9",
+      "pin": "2",
+      "name": "2",
+      "net": "BTN_N",
+      "noConnect": false
+    },
+    {
+      "ref": "R10",
+      "pin": "1",
+      "name": "1",
+      "net": "BTN_EXT",
+      "noConnect": false
+    },
+    {
+      "ref": "R10",
+      "pin": "2",
+      "name": "2",
+      "net": "BTN_N",
+      "noConnect": false
+    },
+    {
+      "ref": "R11",
+      "pin": "1",
+      "name": "1",
+      "net": "STATUS_LED",
+      "noConnect": false
+    },
+    {
+      "ref": "R11",
+      "pin": "2",
+      "name": "2",
+      "net": "LED_A",
+      "noConnect": false
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "name": "1",
+      "net": "VBUS",
+      "noConnect": false
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "name": "1",
+      "net": "VBUS",
+      "noConnect": false
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C4",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C4",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C5",
+      "pin": "1",
+      "name": "1",
+      "net": "+1V1",
+      "noConnect": false
+    },
+    {
+      "ref": "C5",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C6",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C6",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C7",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C7",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C8",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C8",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C9",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C9",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C10",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C10",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C11",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C11",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C12",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C12",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C13",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C13",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C14",
+      "pin": "1",
+      "name": "1",
+      "net": "+1V1",
+      "noConnect": false
+    },
+    {
+      "ref": "C14",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C15",
+      "pin": "1",
+      "name": "1",
+      "net": "+1V1",
+      "noConnect": false
+    },
+    {
+      "ref": "C15",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C16",
+      "pin": "1",
+      "name": "1",
+      "net": "+3V3",
+      "noConnect": false
+    },
+    {
+      "ref": "C16",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C17",
+      "pin": "1",
+      "name": "1",
+      "net": "XIN",
+      "noConnect": false
+    },
+    {
+      "ref": "C17",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C18",
+      "pin": "1",
+      "name": "1",
+      "net": "XTAL_OUT",
+      "noConnect": false
+    },
+    {
+      "ref": "C18",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "C19",
+      "pin": "1",
+      "name": "1",
+      "net": "BTN_N",
+      "noConnect": false
+    },
+    {
+      "ref": "C19",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "Y1",
+      "pin": "1",
+      "name": "XTAL",
+      "net": "XIN",
+      "noConnect": false
+    },
+    {
+      "ref": "Y1",
+      "pin": "2",
+      "name": "GND",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "Y1",
+      "pin": "3",
+      "name": "XTAL",
+      "net": "XTAL_OUT",
+      "noConnect": false
+    },
+    {
+      "ref": "Y1",
+      "pin": "4",
+      "name": "GND",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "SW1",
+      "pin": "1",
+      "name": "1",
+      "net": "BOOT_SW",
+      "noConnect": false
+    },
+    {
+      "ref": "SW1",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "SW2",
+      "pin": "1",
+      "name": "1",
+      "net": "RUN",
+      "noConnect": false
+    },
+    {
+      "ref": "SW2",
+      "pin": "2",
+      "name": "2",
+      "net": "GND",
+      "noConnect": false
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "name": "A",
+      "net": "LED_A",
+      "noConnect": false
+    },
+    {
+      "ref": "D1",
+      "pin": "2",
+      "name": "K",
+      "net": "GND",
+      "noConnect": false
+    }
+  ]
+}
