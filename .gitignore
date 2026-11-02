@@ -1,0 +1,30 @@
+# Private and machine-local data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.local.*
+local/
+private/
+secrets/
+# Dependencies and generated output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pio/
+build/
+dist/
+out/
+*.log
+# OS and editor temporary files
+Thumbs.db
+.DS_Store
+*.swp
+~$*
+# Downloaded upstream repositories; keep notes and links in references instead
+references/_clones/
