@@ -1,4 +1,4 @@
-# 001 · 外置中英文切换独立大按钮
+# 001 · onebigbutton
 
 ## 创意
 
@@ -10,7 +10,7 @@
 
 - [需求与待确认事项](docs/requirements.md)
 - [实现路线与里程碑](docs/roadmap.md)
-- [相关开源项目](../../references/ime-button.md)
+- [相关开源项目](../../references/onebigbutton.md)
 
 ## 文件放哪里
 

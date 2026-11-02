@@ -4,6 +4,6 @@
 
 | 编号 | 创意 | 状态 | 入口 |
 | --- | --- | --- | --- |
-| 001 | 外置中英文切换独立大按钮 | 已进入项目准备阶段 | [项目目录](../projects/001-ime-button/README.md) |
+| 001 | onebigbutton | 已进入项目准备阶段 | [项目目录](../projects/onebigbutton/README.md) |
 
 以后新增创意可命名为 `002-short-name.md`。想法成熟后放入 projects，并在这里留下链接。

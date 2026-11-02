@@ -16,7 +16,7 @@
 
 ## 第一个项目
 
-[001 · 外置中英文切换大按钮](projects/001-ime-button/README.md)
+[001 · onebigbutton](projects/onebigbutton/README.md)
 
 目前完成目录与需求整理；硬件选型、固件和外壳尚未实现。
 
@@ -26,7 +26,7 @@
 idea-lab/
 ├── ideas/                 创意收集
 ├── projects/              自己实现的项目
-│   └── 001-ime-button/
+│   └── onebigbutton/
 │       ├── docs/          需求、方案、进度
 │       ├── hardware/      原理图、PCB、接线、物料
 │       ├── firmware/      设备固件

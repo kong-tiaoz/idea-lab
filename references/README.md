@@ -2,7 +2,7 @@
 
 先收集可靠来源、再记录自己学到了什么。
 
-- [中英文切换大按钮相关参考](ime-button.md)
+- [onebigbutton 相关参考](onebigbutton.md)
 - [通用学习笔记模板](../templates/reference.md)
 
 每条记录应包含：原仓库地址、学习目标、查看日期、所参考的版本或提交、许可核对情况，以及自己的笔记。
