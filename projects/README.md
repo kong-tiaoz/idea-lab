@@ -2,6 +2,6 @@
 
 | 编号 | 项目 | 状态 | 下一步 |
 | --- | --- | --- | --- |
-| 001 | [onebigbutton](onebigbutton/README.md) | 需求整理，尚未实现 | 确认输入法、切换行为与连接方式 |
+| 001 | [onebigbutton](onebigbutton/README.md) | USB 有线 PCB 原型规划，尚未实现 | 选定主控与按钮；Win11 微信输入法，Ctrl + 空格 |
 
 每个项目自行写明安装、运行、硬件依赖与实测方法；可运行的软件统一从 VS Code 打开和操作。
