@@ -11,6 +11,7 @@
 首版：USB 有线，Windows 11 + 微信输入法，模拟 Ctrl + 空格；直接制作 PCB 原型，跳过面包板。
 
 - [需求与待确认事项](docs/requirements.md)
+- [USB 自研版设计草案](../../docs/superpowers/specs/2026-11-02-onebigbutton-usb-design.md)
 - [实现路线与里程碑](docs/roadmap.md)
 - [相关开源项目](../../references/onebigbutton.md)
 
