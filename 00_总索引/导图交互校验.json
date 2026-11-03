@@ -1,0 +1,167 @@
+{
+  "method": "Node.js VM 离线执行实际页面脚本，模拟 DOM 与操作事件，字体宽度采用 Windows 字体度量；不等于真实浏览器视觉验收。",
+  "browserPreview": "内置浏览器安全策略阻止 file://，未绕过。",
+  "checks": [
+    {
+      "name": "实际目录初始渲染",
+      "passed": true
+    },
+    {
+      "name": "放大和缩小",
+      "passed": true
+    },
+    {
+      "name": "全部展开，水平标签无重叠",
+      "passed": true
+    },
+    {
+      "name": "收起到一级",
+      "passed": true
+    },
+    {
+      "name": "目录点击展开收起",
+      "passed": true
+    },
+    {
+      "name": "搜索深层文件并展开祖先",
+      "passed": true
+    },
+    {
+      "name": "搜索结果和文件打开路径",
+      "passed": true
+    },
+    {
+      "name": "无结果与清除搜索",
+      "passed": true
+    },
+    {
+      "name": "键盘展开",
+      "passed": true
+    },
+    {
+      "name": "拖动画布",
+      "passed": true
+    },
+    {
+      "name": "滚轮缩放",
+      "passed": true
+    },
+    {
+      "name": "360px 宽度适应与恢复",
+      "passed": true
+    },
+    {
+      "name": "无网络依赖",
+      "passed": true
+    }
+  ],
+  "diagnostics": {
+    "totalNodes": 97,
+    "visibleNodes": 14,
+    "overlappingLabels": 0,
+    "selectedPath": "04_资料模板",
+    "searchMatches": 0,
+    "scale": 0.9049957249633065,
+    "tx": 739.1882605545609,
+    "ty": 359.18073043820726,
+    "paths": [
+      "",
+      ".git",
+      ".vscode",
+      ".vscode/settings.json",
+      ".vscode/tasks.json",
+      "00_总索引",
+      "00_总索引/原始备份",
+      "00_总索引/原始备份/2026-11-03_整理前资料与必要现场记录.zip",
+      "00_总索引/原始备份/README.md",
+      "00_总索引/README.md",
+      "00_总索引/导图交互校验.json",
+      "00_总索引/整理前文件清单.json",
+      "00_总索引/整理实施记录.md",
+      "00_总索引/文件完整性清单.json",
+      "00_总索引/更名对照.json",
+      "00_总索引/更名对照.md",
+      "00_总索引/最终校验.json",
+      "00_总索引/最终校验.md",
+      "00_总索引/清理记录.json",
+      "00_总索引/用途索引.md",
+      "00_总索引/目录思维导图.html",
+      "00_总索引/目录结构.json",
+      "01_创意收集",
+      "01_创意收集/README.md",
+      "02_项目实践",
+      "02_项目实践/onebigbutton",
+      "02_项目实践/onebigbutton/图片与演示",
+      "02_项目实践/onebigbutton/图片与演示/README.md",
+      "02_项目实践/onebigbutton/外壳结构",
+      "02_项目实践/onebigbutton/外壳结构/README.md",
+      "02_项目实践/onebigbutton/测试记录",
+      "02_项目实践/onebigbutton/测试记录/README.md",
+      "02_项目实践/onebigbutton/电脑辅助程序",
+      "02_项目实践/onebigbutton/电脑辅助程序/README.md",
+      "02_项目实践/onebigbutton/硬件设计",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/2026-11-03_USB1修正后原理图.png",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/2026-11-03_USB1修正后检查记录.json",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/onebigbutton-CH552G-A1_USB1修正前工程.epro2",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/README.md",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/TYPEC-507DSW-ACP24_厂家图纸.pdf",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位清单.json",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位说明.md",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.png",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.svg",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图校验记录.json",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/当前物料清单.md",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/目标引脚连接.json",
+      "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/逐脚连接表.md",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.png",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.svg",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.png",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.svg",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.png",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.svg",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/README.md",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/RP2040_电路连接数据.json",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.csv",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.md",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.csv",
+      "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.md",
+      "02_项目实践/onebigbutton/硬件设计/README.md",
+      "02_项目实践/onebigbutton/设备固件",
+      "02_项目实践/onebigbutton/设备固件/README.md",
+      "02_项目实践/onebigbutton/需求与计划",
+      "02_项目实践/onebigbutton/需求与计划/实现路线.md",
+      "02_项目实践/onebigbutton/需求与计划/需求记录.md",
+      "02_项目实践/onebigbutton/README.md",
+      "02_项目实践/README.md",
+      "03_开源学习",
+      "03_开源学习/onebigbutton_开源参考.md",
+      "03_开源学习/README.md",
+      "04_资料模板",
+      "04_资料模板/项目模板",
+      "04_资料模板/项目模板/图片素材",
+      "04_资料模板/项目模板/图片素材/README.md",
+      "04_资料模板/项目模板/测试记录",
+      "04_资料模板/项目模板/测试记录/README.md",
+      "04_资料模板/项目模板/源代码",
+      "04_资料模板/项目模板/源代码/README.md",
+      "04_资料模板/项目模板/说明文档",
+      "04_资料模板/项目模板/说明文档/README.md",
+      "04_资料模板/项目模板/README.md",
+      "04_资料模板/README.md",
+      "04_资料模板/创意记录模板.md",
+      "04_资料模板/开源学习记录模板.md",
+      "05_使用说明",
+      "05_使用说明/历史设计草案",
+      "05_使用说明/历史设计草案/2026-11-02_onebigbutton_USB方案草案.md",
+      "05_使用说明/VSCode与Git同步指南.md",
+      "06_历史归档",
+      "06_历史归档/README.md",
+      ".gitattributes",
+      ".gitignore",
+      "idea-lab.code-workspace",
+      "README.md"
+    ]
+  }
+}

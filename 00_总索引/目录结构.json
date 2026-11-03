@@ -1,0 +1,634 @@
+{
+  "name": "创意实验室",
+  "path": "",
+  "type": "directory",
+  "purpose": "创意、实现项目与开源学习的工作区",
+  "children": [
+    {
+      "name": ".git",
+      "path": ".git",
+      "type": "directory",
+      "purpose": "受保护的 Git 版本历史，内部对象不逐项列出"
+    },
+    {
+      "name": ".vscode",
+      "path": ".vscode",
+      "type": "directory",
+      "purpose": "VS Code 工作区设置和任务",
+      "children": [
+        {
+          "name": "settings.json",
+          "path": ".vscode/settings.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "tasks.json",
+          "path": ".vscode/tasks.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        }
+      ]
+    },
+    {
+      "name": "00_总索引",
+      "path": "00_总索引",
+      "type": "directory",
+      "purpose": "导图、用途、更名清理记录、最终校验和必要备份",
+      "children": [
+        {
+          "name": "原始备份",
+          "path": "00_总索引/原始备份",
+          "type": "directory",
+          "purpose": "仅一份必要原始备份，本机保留，Git 忽略",
+          "children": [
+            {
+              "name": "2026-11-03_整理前资料与必要现场记录.zip",
+              "path": "00_总索引/原始备份/2026-11-03_整理前资料与必要现场记录.zip",
+              "type": "file",
+              "purpose": "必要的原始备份压缩包"
+            },
+            {
+              "name": "README.md",
+              "path": "00_总索引/原始备份/README.md",
+              "type": "file",
+              "purpose": "在 VS Code 阅读、编辑和预览的说明"
+            }
+          ]
+        },
+        {
+          "name": "README.md",
+          "path": "00_总索引/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "导图交互校验.json",
+          "path": "00_总索引/导图交互校验.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "整理前文件清单.json",
+          "path": "00_总索引/整理前文件清单.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "整理实施记录.md",
+          "path": "00_总索引/整理实施记录.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "文件完整性清单.json",
+          "path": "00_总索引/文件完整性清单.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "更名对照.json",
+          "path": "00_总索引/更名对照.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "更名对照.md",
+          "path": "00_总索引/更名对照.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "最终校验.json",
+          "path": "00_总索引/最终校验.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "最终校验.md",
+          "path": "00_总索引/最终校验.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "清理记录.json",
+          "path": "00_总索引/清理记录.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "用途索引.md",
+          "path": "00_总索引/用途索引.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "目录思维导图.html",
+          "path": "00_总索引/目录思维导图.html",
+          "type": "file",
+          "purpose": "工具约定文件"
+        },
+        {
+          "name": "目录结构.json",
+          "path": "00_总索引/目录结构.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        }
+      ]
+    },
+    {
+      "name": "01_创意收集",
+      "path": "01_创意收集",
+      "type": "directory",
+      "purpose": "记录尚未实现的创意与编号",
+      "children": [
+        {
+          "name": "README.md",
+          "path": "01_创意收集/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "02_项目实践",
+      "path": "02_项目实践",
+      "type": "directory",
+      "purpose": "把自己的创意实现为项目",
+      "children": [
+        {
+          "name": "onebigbutton",
+          "path": "02_项目实践/onebigbutton",
+          "type": "directory",
+          "purpose": "CH552G USB 自研大按钮，Windows 11、微信输入法、Ctrl + 空格",
+          "children": [
+            {
+              "name": "图片与演示",
+              "path": "02_项目实践/onebigbutton/图片与演示",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/图片与演示/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "外壳结构",
+              "path": "02_项目实践/onebigbutton/外壳结构",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/外壳结构/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "测试记录",
+              "path": "02_项目实践/onebigbutton/测试记录",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/测试记录/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "电脑辅助程序",
+              "path": "02_项目实践/onebigbutton/电脑辅助程序",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/电脑辅助程序/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "硬件设计",
+              "path": "02_项目实践/onebigbutton/硬件设计",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "CH552G_原理图",
+                  "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图",
+                  "type": "directory",
+                  "purpose": "用途说明见目录内 README.md",
+                  "children": [
+                    {
+                      "name": "2026-11-03_USB1修正后原理图.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/2026-11-03_USB1修正后原理图.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "2026-11-03_USB1修正后检查记录.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/2026-11-03_USB1修正后检查记录.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "onebigbutton-CH552G-A1_USB1修正前工程.epro2",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/onebigbutton-CH552G-A1_USB1修正前工程.epro2",
+                      "type": "file",
+                      "purpose": "EDA 原生工程导出，内容保持原样"
+                    },
+                    {
+                      "name": "README.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/README.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "TYPEC-507DSW-ACP24_厂家图纸.pdf",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/TYPEC-507DSW-ACP24_厂家图纸.pdf",
+                      "type": "file",
+                      "purpose": "厂家资料"
+                    },
+                    {
+                      "name": "USB1_修正前定位清单.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位清单.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "USB1_修正前定位说明.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位说明.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "USB1修正前_原理图导出.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "USB1修正前_原理图导出.svg",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.svg",
+                      "type": "file",
+                      "purpose": "可缩放矢量图纸"
+                    },
+                    {
+                      "name": "USB1修正前_原理图校验记录.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图校验记录.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "当前物料清单.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/当前物料清单.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "目标引脚连接.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/目标引脚连接.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "逐脚连接表.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/逐脚连接表.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    }
+                  ]
+                },
+                {
+                  "name": "RP2040_历史参考",
+                  "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考",
+                  "type": "directory",
+                  "purpose": "用途说明见目录内 README.md",
+                  "children": [
+                    {
+                      "name": "01_USB接口与供电.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "01_USB接口与供电.svg",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.svg",
+                      "type": "file",
+                      "purpose": "可缩放矢量图纸"
+                    },
+                    {
+                      "name": "02_主控与Flash及晶振.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "02_主控与Flash及晶振.svg",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.svg",
+                      "type": "file",
+                      "purpose": "可缩放矢量图纸"
+                    },
+                    {
+                      "name": "03_电源与按钮及下载调试.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "03_电源与按钮及下载调试.svg",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.svg",
+                      "type": "file",
+                      "purpose": "可缩放矢量图纸"
+                    },
+                    {
+                      "name": "README.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/README.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "RP2040_电路连接数据.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/RP2040_电路连接数据.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "物料清单草案.csv",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.csv",
+                      "type": "file",
+                      "purpose": "可用表格工具打开的数据"
+                    },
+                    {
+                      "name": "物料清单草案.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "逐脚连接表.csv",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.csv",
+                      "type": "file",
+                      "purpose": "可用表格工具打开的数据"
+                    },
+                    {
+                      "name": "逐脚连接表.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    }
+                  ]
+                },
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/硬件设计/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "设备固件",
+              "path": "02_项目实践/onebigbutton/设备固件",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/设备固件/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "需求与计划",
+              "path": "02_项目实践/onebigbutton/需求与计划",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "实现路线.md",
+                  "path": "02_项目实践/onebigbutton/需求与计划/实现路线.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                },
+                {
+                  "name": "需求记录.md",
+                  "path": "02_项目实践/onebigbutton/需求与计划/需求记录.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "README.md",
+              "path": "02_项目实践/onebigbutton/README.md",
+              "type": "file",
+              "purpose": "在 VS Code 阅读、编辑和预览的说明"
+            }
+          ]
+        },
+        {
+          "name": "README.md",
+          "path": "02_项目实践/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "03_开源学习",
+      "path": "03_开源学习",
+      "type": "directory",
+      "purpose": "第三方项目链接、来源与学习笔记",
+      "children": [
+        {
+          "name": "onebigbutton_开源参考.md",
+          "path": "03_开源学习/onebigbutton_开源参考.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "README.md",
+          "path": "03_开源学习/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "04_资料模板",
+      "path": "04_资料模板",
+      "type": "directory",
+      "purpose": "创意、项目和参考笔记模板",
+      "children": [
+        {
+          "name": "项目模板",
+          "path": "04_资料模板/项目模板",
+          "type": "directory",
+          "purpose": "用途说明见目录内 README.md",
+          "children": [
+            {
+              "name": "图片素材",
+              "path": "04_资料模板/项目模板/图片素材",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "04_资料模板/项目模板/图片素材/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "测试记录",
+              "path": "04_资料模板/项目模板/测试记录",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "04_资料模板/项目模板/测试记录/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "源代码",
+              "path": "04_资料模板/项目模板/源代码",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "04_资料模板/项目模板/源代码/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "说明文档",
+              "path": "04_资料模板/项目模板/说明文档",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "04_资料模板/项目模板/说明文档/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "README.md",
+              "path": "04_资料模板/项目模板/README.md",
+              "type": "file",
+              "purpose": "在 VS Code 阅读、编辑和预览的说明"
+            }
+          ]
+        },
+        {
+          "name": "README.md",
+          "path": "04_资料模板/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "创意记录模板.md",
+          "path": "04_资料模板/创意记录模板.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "开源学习记录模板.md",
+          "path": "04_资料模板/开源学习记录模板.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "05_使用说明",
+      "path": "05_使用说明",
+      "type": "directory",
+      "purpose": "VS Code、Git 使用和历史设计草案",
+      "children": [
+        {
+          "name": "历史设计草案",
+          "path": "05_使用说明/历史设计草案",
+          "type": "directory",
+          "purpose": "用途说明见目录内 README.md",
+          "children": [
+            {
+              "name": "2026-11-02_onebigbutton_USB方案草案.md",
+              "path": "05_使用说明/历史设计草案/2026-11-02_onebigbutton_USB方案草案.md",
+              "type": "file",
+              "purpose": "在 VS Code 阅读、编辑和预览的说明"
+            }
+          ]
+        },
+        {
+          "name": "VSCode与Git同步指南.md",
+          "path": "05_使用说明/VSCode与Git同步指南.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "06_历史归档",
+      "path": "06_历史归档",
+      "type": "directory",
+      "purpose": "暂停或结束的资料，目前仅有说明",
+      "children": [
+        {
+          "name": "README.md",
+          "path": "06_历史归档/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": ".gitattributes",
+      "path": ".gitattributes",
+      "type": "file",
+      "purpose": "工具约定文件"
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "type": "file",
+      "purpose": "工具约定文件"
+    },
+    {
+      "name": "idea-lab.code-workspace",
+      "path": "idea-lab.code-workspace",
+      "type": "file",
+      "purpose": "VS Code 工作区入口"
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "type": "file",
+      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+    }
+  ]
+}

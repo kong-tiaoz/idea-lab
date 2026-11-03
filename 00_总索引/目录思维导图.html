@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>创意实验室 · 目录思维导图</title>
+<style>
+:root{color-scheme:light;--ink:#23364a;--muted:#6d7c89;--line:#dce3e8;--paper:#f8fafb;--accent:#237a76}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.6 "Segoe UI","Microsoft YaHei",sans-serif}
+header{padding:25px 32px 18px;background:#fff;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+h1{margin:0;font-size:25px;font-weight:650;letter-spacing:.5px}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--accent);font-weight:700;margin-bottom:3px}.sub{color:var(--muted);margin-top:5px;font-size:13px}
+.toplink{color:var(--accent);text-decoration:none;border-bottom:1px solid #b0cfcc}.toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:9px;padding:14px 32px;border-bottom:1px solid var(--line);background:#fff}
+button,input,a.open{font:inherit}button{cursor:pointer;background:#fff;border:1px solid #d6dfe5;border-radius:7px;color:var(--ink);padding:7px 12px;min-height:36px}button:hover{border-color:var(--accent);color:var(--accent);background:#f0f7f6}button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #8ac4bf;outline-offset:3px}.small{padding:7px 13px;font-size:16px;line-height:20px}.search{display:flex;align-items:center;gap:8px;margin-left:auto}.search input{padding:8px 12px;border:1px solid #d6dfe5;border-radius:7px;width:230px;max-width:100%;background:#fafcfd;color:var(--ink)}#matches{font-size:12px;color:var(--muted);min-width:60px}
+.workspace{position:relative;height:calc(100vh - 230px);min-height:520px;overflow:hidden;background-image:radial-gradient(#dbe4e8 .7px,transparent .7px);background-size:19px 19px}svg{width:100%;height:100%;display:block;touch-action:none;cursor:grab}svg.dragging{cursor:grabbing}.link{fill:none;stroke-width:1.8;opacity:.52}.node{cursor:pointer}.node rect{fill:#fff;stroke:#e0e7eb;stroke-width:1}.node.selected rect{stroke:#237a76;stroke-width:2}.node.match rect{fill:#fff7de;stroke:#dfb754}.node text{fill:var(--ink);font-size:18px;pointer-events:none}.node .count{font-size:12px;fill:var(--muted)}.node circle{stroke:#fff;stroke-width:2}.root rect{fill:#213e4d;stroke:#213e4d}.root text{fill:#fff;font-size:21px;font-weight:600}.root .count{fill:#bed6dc;font-size:13px}.hint{position:absolute;bottom:15px;left:25px;pointer-events:none;color:#7a8b98;font-size:12px;padding:4px 8px;background:#f8fafbe8;border-radius:4px}
+.status{display:flex;align-items:center;justify-content:space-between;gap:18px;background:#fff;border-top:1px solid var(--line);padding:13px 32px;min-height:80px}.detail{min-width:0}#selected-name{font-weight:650}#selected-path{font:12px/1.6 "Segoe UI","Microsoft YaHei",sans-serif;color:var(--muted);overflow-wrap:anywhere}#selected-purpose{font-size:12px;color:var(--muted)}a.open{white-space:nowrap;display:inline-block;text-decoration:none;color:#fff;background:var(--accent);padding:8px 16px;border-radius:7px}.zoomtext{font-size:12px;color:var(--muted);min-width:42px;text-align:center}.results{position:absolute;top:12px;right:22px;max-height:45%;overflow:auto;width:360px;max-width:calc(100% - 44px);background:#fff;border:1px solid var(--line);border-radius:8px;padding:6px;box-shadow:0 7px 28px #243d4f12}.results[hidden]{display:none}.results button{display:block;text-align:left;width:100%;border:0;overflow-wrap:anywhere;font-size:12px;margin-bottom:3px}.results strong{font-size:13px;display:block}.legend{display:flex;align-items:center;gap:12px;font-size:11px;color:var(--muted)}.legend span::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;background:#237a76}.legend span:last-child::before{background:#9baab6}
+@media(max-width:760px){header,.toolbar,.status{padding-left:16px;padding-right:16px}h1{font-size:21px}.search{margin-left:0;width:100%}.search input{flex:1;width:auto;min-width:0}.workspace{height:65vh;min-height:470px}.status{align-items:flex-start}.legend{display:none}.hint{left:12px;font-size:11px}}
+</style>
+</head>
+<body>
+<header><div><div class="eyebrow">IDEA LAB / FILE MAP</div><h1>创意实验室 · 目录思维导图</h1><div class="sub">从用途找到文件，让每个创意都有清楚的位置。</div></div><a class="toplink" href="用途索引.md">查看用途索引 ↗</a></header>
+<div class="toolbar" aria-label="导图操作">
+ <button class="small" id="zoom-in" aria-label="放大">＋</button><button class="small" id="zoom-out" aria-label="缩小">−</button><span class="zoomtext" id="zoom">100%</span>
+ <button id="fit">适应画布</button><button id="expand">全部展开</button><button id="collapse">收起到一级</button>
+ <div class="search"><label for="search">查找</label><input id="search" placeholder="搜索目录、文件或用途" autocomplete="off"><span id="matches" aria-live="polite"></span></div>
+</div>
+<main class="workspace" id="stage">
+ <svg id="map" role="img" aria-label="整理后的实际文件目录，节点可展开或收起"><g id="viewport"></g></svg>
+ <div id="results" class="results" hidden aria-label="搜索结果"></div>
+ <div class="hint">滚轮缩放 · 拖动画布 · 点击目录展开 / 收起 · 搜索可定位隐藏文件</div>
+</main>
+<footer class="status"><div class="detail" aria-live="polite"><div id="selected-name">创意实验室</div><div id="selected-path">F:\idea-lab</div><div id="selected-purpose">七个用途分支；Git 内部历史作为一个保留节点展示。</div></div><div class="legend"><span>用途目录</span><span>普通文件</span></div><a class="open" id="open" href="../README.md">打开资料</a></footer>
+<script id="tree-data" type="application/json">{
+  "name": "创意实验室",
+  "path": "",
+  "type": "directory",
+  "purpose": "创意、实现项目与开源学习的工作区",
+  "children": [
+    {
+      "name": ".git",
+      "path": ".git",
+      "type": "directory",
+      "purpose": "受保护的 Git 版本历史，内部对象不逐项列出"
+    },
+    {
+      "name": ".vscode",
+      "path": ".vscode",
+      "type": "directory",
+      "purpose": "VS Code 工作区设置和任务",
+      "children": [
+        {
+          "name": "settings.json",
+          "path": ".vscode/settings.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "tasks.json",
+          "path": ".vscode/tasks.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        }
+      ]
+    },
+    {
+      "name": "00_总索引",
+      "path": "00_总索引",
+      "type": "directory",
+      "purpose": "导图、用途、更名清理记录、最终校验和必要备份",
+      "children": [
+        {
+          "name": "原始备份",
+          "path": "00_总索引/原始备份",
+          "type": "directory",
+          "purpose": "仅一份必要原始备份，本机保留，Git 忽略",
+          "children": [
+            {
+              "name": "2026-11-03_整理前资料与必要现场记录.zip",
+              "path": "00_总索引/原始备份/2026-11-03_整理前资料与必要现场记录.zip",
+              "type": "file",
+              "purpose": "必要的原始备份压缩包"
+            },
+            {
+              "name": "README.md",
+              "path": "00_总索引/原始备份/README.md",
+              "type": "file",
+              "purpose": "在 VS Code 阅读、编辑和预览的说明"
+            }
+          ]
+        },
+        {
+          "name": "README.md",
+          "path": "00_总索引/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "导图交互校验.json",
+          "path": "00_总索引/导图交互校验.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "整理前文件清单.json",
+          "path": "00_总索引/整理前文件清单.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "整理实施记录.md",
+          "path": "00_总索引/整理实施记录.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "文件完整性清单.json",
+          "path": "00_总索引/文件完整性清单.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "更名对照.json",
+          "path": "00_总索引/更名对照.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "更名对照.md",
+          "path": "00_总索引/更名对照.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "最终校验.json",
+          "path": "00_总索引/最终校验.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "最终校验.md",
+          "path": "00_总索引/最终校验.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "清理记录.json",
+          "path": "00_总索引/清理记录.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        },
+        {
+          "name": "用途索引.md",
+          "path": "00_总索引/用途索引.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "目录思维导图.html",
+          "path": "00_总索引/目录思维导图.html",
+          "type": "file",
+          "purpose": "工具约定文件"
+        },
+        {
+          "name": "目录结构.json",
+          "path": "00_总索引/目录结构.json",
+          "type": "file",
+          "purpose": "结构化数据或校验记录"
+        }
+      ]
+    },
+    {
+      "name": "01_创意收集",
+      "path": "01_创意收集",
+      "type": "directory",
+      "purpose": "记录尚未实现的创意与编号",
+      "children": [
+        {
+          "name": "README.md",
+          "path": "01_创意收集/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "02_项目实践",
+      "path": "02_项目实践",
+      "type": "directory",
+      "purpose": "把自己的创意实现为项目",
+      "children": [
+        {
+          "name": "onebigbutton",
+          "path": "02_项目实践/onebigbutton",
+          "type": "directory",
+          "purpose": "CH552G USB 自研大按钮，Windows 11、微信输入法、Ctrl + 空格",
+          "children": [
+            {
+              "name": "图片与演示",
+              "path": "02_项目实践/onebigbutton/图片与演示",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/图片与演示/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "外壳结构",
+              "path": "02_项目实践/onebigbutton/外壳结构",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/外壳结构/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "测试记录",
+              "path": "02_项目实践/onebigbutton/测试记录",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/测试记录/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "电脑辅助程序",
+              "path": "02_项目实践/onebigbutton/电脑辅助程序",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/电脑辅助程序/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "硬件设计",
+              "path": "02_项目实践/onebigbutton/硬件设计",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "CH552G_原理图",
+                  "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图",
+                  "type": "directory",
+                  "purpose": "用途说明见目录内 README.md",
+                  "children": [
+                    {
+                      "name": "2026-11-03_USB1修正后原理图.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/2026-11-03_USB1修正后原理图.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "2026-11-03_USB1修正后检查记录.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/2026-11-03_USB1修正后检查记录.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "onebigbutton-CH552G-A1_USB1修正前工程.epro2",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/onebigbutton-CH552G-A1_USB1修正前工程.epro2",
+                      "type": "file",
+                      "purpose": "EDA 原生工程导出，内容保持原样"
+                    },
+                    {
+                      "name": "README.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/README.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "TYPEC-507DSW-ACP24_厂家图纸.pdf",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/TYPEC-507DSW-ACP24_厂家图纸.pdf",
+                      "type": "file",
+                      "purpose": "厂家资料"
+                    },
+                    {
+                      "name": "USB1_修正前定位清单.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位清单.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "USB1_修正前定位说明.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位说明.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "USB1修正前_原理图导出.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "USB1修正前_原理图导出.svg",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.svg",
+                      "type": "file",
+                      "purpose": "可缩放矢量图纸"
+                    },
+                    {
+                      "name": "USB1修正前_原理图校验记录.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图校验记录.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "当前物料清单.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/当前物料清单.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "目标引脚连接.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/目标引脚连接.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "逐脚连接表.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/逐脚连接表.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    }
+                  ]
+                },
+                {
+                  "name": "RP2040_历史参考",
+                  "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考",
+                  "type": "directory",
+                  "purpose": "用途说明见目录内 README.md",
+                  "children": [
+                    {
+                      "name": "01_USB接口与供电.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "01_USB接口与供电.svg",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.svg",
+                      "type": "file",
+                      "purpose": "可缩放矢量图纸"
+                    },
+                    {
+                      "name": "02_主控与Flash及晶振.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "02_主控与Flash及晶振.svg",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.svg",
+                      "type": "file",
+                      "purpose": "可缩放矢量图纸"
+                    },
+                    {
+                      "name": "03_电源与按钮及下载调试.png",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.png",
+                      "type": "file",
+                      "purpose": "原理图或参考图片"
+                    },
+                    {
+                      "name": "03_电源与按钮及下载调试.svg",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.svg",
+                      "type": "file",
+                      "purpose": "可缩放矢量图纸"
+                    },
+                    {
+                      "name": "README.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/README.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "RP2040_电路连接数据.json",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/RP2040_电路连接数据.json",
+                      "type": "file",
+                      "purpose": "结构化数据或校验记录"
+                    },
+                    {
+                      "name": "物料清单草案.csv",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.csv",
+                      "type": "file",
+                      "purpose": "可用表格工具打开的数据"
+                    },
+                    {
+                      "name": "物料清单草案.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    },
+                    {
+                      "name": "逐脚连接表.csv",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.csv",
+                      "type": "file",
+                      "purpose": "可用表格工具打开的数据"
+                    },
+                    {
+                      "name": "逐脚连接表.md",
+                      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.md",
+                      "type": "file",
+                      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                    }
+                  ]
+                },
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/硬件设计/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "设备固件",
+              "path": "02_项目实践/onebigbutton/设备固件",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "02_项目实践/onebigbutton/设备固件/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "需求与计划",
+              "path": "02_项目实践/onebigbutton/需求与计划",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "实现路线.md",
+                  "path": "02_项目实践/onebigbutton/需求与计划/实现路线.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                },
+                {
+                  "name": "需求记录.md",
+                  "path": "02_项目实践/onebigbutton/需求与计划/需求记录.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "README.md",
+              "path": "02_项目实践/onebigbutton/README.md",
+              "type": "file",
+              "purpose": "在 VS Code 阅读、编辑和预览的说明"
+            }
+          ]
+        },
+        {
+          "name": "README.md",
+          "path": "02_项目实践/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "03_开源学习",
+      "path": "03_开源学习",
+      "type": "directory",
+      "purpose": "第三方项目链接、来源与学习笔记",
+      "children": [
+        {
+          "name": "onebigbutton_开源参考.md",
+          "path": "03_开源学习/onebigbutton_开源参考.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "README.md",
+          "path": "03_开源学习/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "04_资料模板",
+      "path": "04_资料模板",
+      "type": "directory",
+      "purpose": "创意、项目和参考笔记模板",
+      "children": [
+        {
+          "name": "项目模板",
+          "path": "04_资料模板/项目模板",
+          "type": "directory",
+          "purpose": "用途说明见目录内 README.md",
+          "children": [
+            {
+              "name": "图片素材",
+              "path": "04_资料模板/项目模板/图片素材",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "04_资料模板/项目模板/图片素材/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "测试记录",
+              "path": "04_资料模板/项目模板/测试记录",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "04_资料模板/项目模板/测试记录/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "源代码",
+              "path": "04_资料模板/项目模板/源代码",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "04_资料模板/项目模板/源代码/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "说明文档",
+              "path": "04_资料模板/项目模板/说明文档",
+              "type": "directory",
+              "purpose": "用途说明见目录内 README.md",
+              "children": [
+                {
+                  "name": "README.md",
+                  "path": "04_资料模板/项目模板/说明文档/README.md",
+                  "type": "file",
+                  "purpose": "在 VS Code 阅读、编辑和预览的说明"
+                }
+              ]
+            },
+            {
+              "name": "README.md",
+              "path": "04_资料模板/项目模板/README.md",
+              "type": "file",
+              "purpose": "在 VS Code 阅读、编辑和预览的说明"
+            }
+          ]
+        },
+        {
+          "name": "README.md",
+          "path": "04_资料模板/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "创意记录模板.md",
+          "path": "04_资料模板/创意记录模板.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        },
+        {
+          "name": "开源学习记录模板.md",
+          "path": "04_资料模板/开源学习记录模板.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "05_使用说明",
+      "path": "05_使用说明",
+      "type": "directory",
+      "purpose": "VS Code、Git 使用和历史设计草案",
+      "children": [
+        {
+          "name": "历史设计草案",
+          "path": "05_使用说明/历史设计草案",
+          "type": "directory",
+          "purpose": "用途说明见目录内 README.md",
+          "children": [
+            {
+              "name": "2026-11-02_onebigbutton_USB方案草案.md",
+              "path": "05_使用说明/历史设计草案/2026-11-02_onebigbutton_USB方案草案.md",
+              "type": "file",
+              "purpose": "在 VS Code 阅读、编辑和预览的说明"
+            }
+          ]
+        },
+        {
+          "name": "VSCode与Git同步指南.md",
+          "path": "05_使用说明/VSCode与Git同步指南.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": "06_历史归档",
+      "path": "06_历史归档",
+      "type": "directory",
+      "purpose": "暂停或结束的资料，目前仅有说明",
+      "children": [
+        {
+          "name": "README.md",
+          "path": "06_历史归档/README.md",
+          "type": "file",
+          "purpose": "在 VS Code 阅读、编辑和预览的说明"
+        }
+      ]
+    },
+    {
+      "name": ".gitattributes",
+      "path": ".gitattributes",
+      "type": "file",
+      "purpose": "工具约定文件"
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "type": "file",
+      "purpose": "工具约定文件"
+    },
+    {
+      "name": "idea-lab.code-workspace",
+      "path": "idea-lab.code-workspace",
+      "type": "file",
+      "purpose": "VS Code 工作区入口"
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "type": "file",
+      "purpose": "在 VS Code 阅读、编辑和预览的说明"
+    }
+  ]
+}</script>
+<script>
+(()=>{
+'use strict';
+const data=JSON.parse(document.getElementById('tree-data').textContent);
+const svg=document.getElementById('map'),vp=document.getElementById('viewport'),stage=document.getElementById('stage');
+const ns='http://www.w3.org/2000/svg',palette=['#278a82','#b17a3f','#537bba','#916da8','#c57064','#5e9270','#798699','#658eaa','#a68a55','#8a91a6','#9099a3'];
+const all=[],byPath=new Map(),collapsed=new Set();let visible=[],links=[],selected=data,query='',hits=[],boxes=[],scale=1,tx=0,ty=0,drag=null,moved=false,foundOverlaps=0;
+const ctx=document.createElement('canvas').getContext('2d');ctx.font='18px "Segoe UI","Microsoft YaHei",sans-serif';
+function index(n,parent=null,depth=0,branch=0){n.parent=parent;n.depth=depth;n.branch=branch;all.push(n);byPath.set(n.path,n);if(depth===1&&n.children?.length)collapsed.add(n.path);(n.children||[]).forEach((c,i)=>index(c,n,depth+1,depth===0?i:branch));}
+index(data);
+function el(tag,attrs={},text){const e=document.createElementNS(ns,tag);for(const [k,v]of Object.entries(attrs))e.setAttribute(k,String(v));if(text!==undefined)e.textContent=text;return e;}
+function linesFor(s){const lines=[];let line='';for(const ch of s){if(ctx.measureText(line+ch).width>310&&line){lines.push(line);line='';}line+=ch;}if(line)lines.push(line);return lines;}
+function collect(n){visible.push(n);n.viewChildren=collapsed.has(n.path)?[]:(n.children||[]);n.viewChildren.forEach(c=>{links.push([n,c]);collect(c);});}
+function arrange(){visible=[];links=[];collect(data);let leaves=[];function positions(n){if(!n.viewChildren.length){n.slot=leaves.length;leaves.push(n);}else{n.viewChildren.forEach(positions);n.slot=(n.viewChildren[0].slot+n.viewChildren.at(-1).slot)/2;}}positions(data);
+ for(const n of visible){n.angle=n===data?0:-Math.PI/2+2*Math.PI*n.slot/Math.max(leaves.length,1);n.lines=linesFor(n.name);n.w=n===data?200:Math.max(80,...n.lines.map(x=>ctx.measureText(x).width))+28;n.h=n===data?86:n.lines.length*24+((n.children?.length)?33:10);}
+ let step=285;
+ for(let attempt=0;attempt<48;attempt++){
+  boxes=visible.map(n=>{n.x=n===data?0:Math.cos(n.angle)*n.depth*step;n.y=n===data?0:Math.sin(n.angle)*n.depth*step;n.rx=n===data?-n.w/2:Math.cos(n.angle)>=0?16:-n.w-16;n.ry=-n.h/2;return {n,x:n.x+n.rx-5,y:n.y+n.ry-5,w:n.w+10,h:n.h+10};});
+  foundOverlaps=0;for(let i=0;i<boxes.length;i++)for(let j=0;j<i;j++){const a=boxes[i],b=boxes[j];if(a.x<b.x+b.w&&a.x+a.w>b.x&&a.y<b.y+b.h&&a.y+a.h>b.y)foundOverlaps++;}
+  if(!foundOverlaps)break;step*=1.17;
+ }
+}
+function paint(){arrange();vp.replaceChildren();
+ for(const [a,b]of links){const mid=(a.depth+b.depth)*.5;const bx=Math.cos(b.angle)*mid*(Math.hypot(b.x,b.y)/b.depth),by=Math.sin(b.angle)*mid*(Math.hypot(b.x,b.y)/b.depth);vp.append(el('path',{class:'link',stroke:palette[b.branch%palette.length],d:`M ${a.x} ${a.y} Q ${bx} ${by} ${b.x} ${b.y}`}));}
+ for(const n of visible){const color=palette[n.branch%palette.length];const g=el('g',{class:'node'+(n===data?' root':'')+(n===selected?' selected':'')+(query&&hits.includes(n)?' match':''),transform:`translate(${n.x} ${n.y})`,role:'button',tabindex:0,'aria-label':n.name+(n.children?.length?(collapsed.has(n.path)?'，展开目录':'，收起目录'):'，查看文件'),...(n.children?.length?{'aria-expanded':!collapsed.has(n.path)}:{})});g.append(el('title',{},n.path||'F:\idea-lab'));
+  if(n!==data)g.append(el('circle',{r:n.type==='directory'?6:4,fill:n.type==='directory'?color:'#9aaab7'}));
+  g.append(el('rect',{x:n.rx,y:n.ry,width:n.w,height:n.h,rx:n===data?14:8}));
+  if(n!==data)g.append(el('rect',{x:n.rx,y:n.ry+10,width:3,height:n.h-20,rx:1,style:`fill:${color};stroke:none`}));
+  const t=el('text',{x:n.rx+14,y:n.ry+(n===data?30:25)});n.lines.forEach((line,i)=>t.append(el('tspan',{x:n.rx+14,dy:i?24:0},line)));g.append(t);
+  if(n===data)g.append(el('text',{x:n.rx+14,y:n.ry+59,class:'count'},'F:\\idea-lab'));
+  else if(n.children?.length)g.append(el('text',{x:n.rx+14,y:n.ry+n.h-10,class:'count'},`${collapsed.has(n.path)?'＋':'−'} ${n.children.length} 项`));
+  const act=()=>{show(n);if(n.children?.length){collapsed.has(n.path)?collapsed.delete(n.path):collapsed.add(n.path);paint();fit();}else paint();};
+  g.addEventListener('click',()=>{if(!moved)act();});g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();act();}});vp.append(g);
+ }
+ transform();
+}
+function transform(){vp.setAttribute('transform',`translate(${tx} ${ty}) scale(${scale})`);document.getElementById('zoom').textContent=Math.round(scale*100)+'%';}
+function bounds(){return {left:Math.min(...boxes.map(b=>b.x)),top:Math.min(...boxes.map(b=>b.y)),right:Math.max(...boxes.map(b=>b.x+b.w)),bottom:Math.max(...boxes.map(b=>b.y+b.h))};}
+function fit(){const b=bounds(),w=stage.clientWidth,h=stage.clientHeight;scale=Math.min(1.2,(w-75)/(b.right-b.left),(h-75)/(b.bottom-b.top));scale=Math.max(.025,scale);tx=(w-(b.left+b.right)*scale)/2;ty=(h-(b.top+b.bottom)*scale)/2;transform();}
+function zoom(f,x=stage.clientWidth/2,y=stage.clientHeight/2){const k=Math.min(4,Math.max(.025,scale*f));tx=x-(x-tx)*k/scale;ty=y-(y-ty)*k/scale;scale=k;transform();}
+function show(n){selected=n;document.getElementById('selected-name').textContent=n.name;document.getElementById('selected-path').textContent=n.path||'F:\idea-lab';document.getElementById('selected-purpose').textContent=n.purpose||'';document.getElementById('open').href='../'+(n.path?n.path.split('/').map(encodeURIComponent).join('/')+(n.type==='directory'?'/':''):'README.md');}
+function focus(n){for(let p=n.parent;p;p=p.parent)collapsed.delete(p.path);show(n);paint();scale=1;tx=stage.clientWidth/2-n.x;ty=stage.clientHeight/2-n.y;transform();}
+function search(){query=document.getElementById('search').value.trim().toLowerCase();hits=query?all.filter(n=>(n.name+' '+n.path+' '+(n.purpose||'')).toLowerCase().includes(query)):[];const panel=document.getElementById('results');panel.replaceChildren();panel.hidden=!query;document.getElementById('matches').textContent=query?`${hits.length} 项匹配`:'';
+ for(const n of hits.slice(0,30)){const b=document.createElement('button'),s=document.createElement('strong'),p=document.createElement('span');s.textContent=n.name;p.textContent=n.path;b.append(s,p);b.addEventListener('click',()=>{focus(n);panel.hidden=true;});panel.append(b);}if(query&&!hits.length)panel.textContent='没有找到，试试项目标识或文件用途。';if(hits.length)focus(hits[0]);else paint();}
+svg.addEventListener('wheel',e=>{e.preventDefault();const r=svg.getBoundingClientRect();zoom(Math.exp(-e.deltaY*.0012),e.clientX-r.left,e.clientY-r.top);},{passive:false});
+svg.addEventListener('pointerdown',e=>{if(e.button!==0)return;moved=false;drag={id:e.pointerId,x:e.clientX,y:e.clientY,tx,ty};if(!e.target.closest('.node'))svg.setPointerCapture(e.pointerId);svg.classList.add('dragging');});
+svg.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.abs(dx)+Math.abs(dy)>4)moved=true;tx=drag.tx+dx;ty=drag.ty+dy;transform();});
+function stop(){drag=null;svg.classList.remove('dragging');}svg.addEventListener('pointerup',stop);svg.addEventListener('pointercancel',stop);
+document.getElementById('zoom-in').onclick=()=>zoom(1.25);document.getElementById('zoom-out').onclick=()=>zoom(.8);document.getElementById('fit').onclick=fit;
+document.getElementById('expand').onclick=()=>{collapsed.clear();paint();fit();};document.getElementById('collapse').onclick=()=>{collapsed.clear();all.filter(n=>n.depth>=1&&n.children?.length).forEach(n=>collapsed.add(n.path));paint();fit();};
+document.getElementById('search').addEventListener('input',search);document.getElementById('search').addEventListener('keydown',e=>{if(e.key==='Enter'&&hits.length){focus(hits[0]);document.getElementById('results').hidden=true;}if(e.key==='Escape'){e.target.value='';search();fit();}});
+new ResizeObserver(fit).observe(stage);paint();show(data);fit();
+window.mindmapDiagnostics=()=>({totalNodes:all.length,visibleNodes:visible.length,overlappingLabels:foundOverlaps,selectedPath:selected.path,searchMatches:hits.length,scale,tx,ty,paths:all.map(n=>n.path)});
+})();
+</script>
+</body>
+</html>

@@ -1,58 +1,34 @@
 # 创意实验室 · Idea Lab
 
-把随手记下的创意，逐步变成可以展示和使用的项目。
+把创意逐步变成可以展示和使用的项目。根目录保留为 `F:\idea-lab`，项目标识保留 `onebigbutton`。
 
-## 在 VS Code 中打开
+## 从这里开始
 
-双击 `idea-lab.code-workspace`，或在终端运行 `code F:\idea-lab\idea-lab.code-workspace`。
-打开本文件，按 Ctrl+Shift+V 预览，点击相对链接进入各目录。
+- [离线径向思维导图](00_总索引/目录思维导图.html)：缩放、拖动、搜索、展开与收起。
+- [用途索引](00_总索引/用途索引.md)：各目录放什么、常用文件在哪里。
+- [创意收集](01_创意收集/README.md)
+- [项目实践](02_项目实践/README.md)
+- [开源学习](03_开源学习/README.md)
+- [资料模板](04_资料模板/README.md)
+- [VS Code 与 Git 同步指南](05_使用说明/VSCode与Git同步指南.md)
+- [历史归档](06_历史归档/README.md)
 
-- [创意收集箱](ideas/README.md)：还没有开始实现的点子。
-- [项目总览](projects/README.md)：正在实现和已经完成的项目。
-- [开源学习库](references/README.md)：项目链接、来源和学习笔记。
-- [可复用模板](templates/README.md)：新创意、新项目和学习记录。
-- [VS Code 与同步说明](docs/vscode-and-git.md)
-- [归档区](archive/README.md)
+## onebigbutton
 
-## 第一个项目
+[进入项目](02_项目实践/onebigbutton/README.md)。当前采用 CH552G，自研 USB 有线大按钮，面向 Windows 11 和微信输入法，发送 Ctrl + 空格。
 
-[001 · onebigbutton](projects/onebigbutton/README.md)
+此前现场检查已确认 USB1 引脚映射错误消失：0 个错误、1 个 ATTRMATCHCODE 警告；固件、PCB、外壳和实板验证尚未完成。仓库中的原生工程导出为 USB1 修正前版本，已在文件名和硬件说明中标明。
 
-当前已在嘉立创EDA绘制 CH552G 原理图，器件标准化与 USB1 符号/封装映射问题待处理；固件、PCB 和外壳尚未完成。
+## 在 VS Code 中工作
 
-## 目录约定
+双击 `idea-lab.code-workspace`，Markdown 按 Ctrl+Shift+V 预览；离线思维导图用浏览器打开。通过源代码管理提交，再点击“同步更改”。
 
-```text
-idea-lab/
-├── ideas/                 创意收集
-├── projects/              自己实现的项目
-│   └── onebigbutton/
-│       ├── docs/          需求、方案、进度
-│       ├── hardware/      原理图、PCB、接线、物料
-│       ├── firmware/      设备固件
-│       ├── software/      电脑端辅助程序（需要时）
-│       ├── enclosure/     外壳、尺寸、模型
-│       ├── assets/        图片与演示素材
-│       └── test-results/  实测记录
-├── references/            开源参考与学习笔记
-├── templates/             通用模板
-├── docs/                  仓库使用说明
-├── archive/               暂停或结束的内容
-├── .vscode/               VS Code 工作区设置
-└── idea-lab.code-workspace
-```
+新增创意使用 [创意记录模板](04_资料模板/创意记录模板.md)；开始实现后，复制 [项目模板](04_资料模板/项目模板/README.md) 所在目录到 `02_项目实践`，按项目用途或标识命名。
 
-## 从创意到成品
-
-1. 用 [创意模板](templates/idea.md) 在 ideas 中记录想法。
-2. 决定开始后，复制 templates/project 到 projects，改成 `002-short-name` 等名称。
-3. 更新项目总览，记录需求、实现过程、运行方法和实测结果。
-4. 在 VS Code 的源代码管理中提交，再点“同步更改”。
-
-Markdown、代码、配置均可在 VS Code 中编辑和提交。固件运行需要对应开发板与工具链；原理图、PCB 和三维模型需要各自的设计工具，VS Code 负责统一管理文件。
+`.git`、`.vscode`、`README.md` 和工作区配置保留工具约定名称。普通资料优先用准确中文说明，保留项目标识、编号、日期和扩展名。
 
 ## 公开内容与授权
 
-本仓库公开。仅提交愿意公开的创意与资料；账号管理资料、密钥和本地配置不要放入。
-参考项目先记录链接与学习笔记。若以后引入源码，保留原作者署名、许可证与来源版本。
-原创内容的开源许可证尚未选定；公开可见不代表已授予任意复用授权。
+本仓库公开。仅提交愿意公开的创意与资料；账号、密钥及机器私有配置不放入仓库。第三方项目先记录来源和学习笔记，实际引入源码时保留署名、许可证和来源版本。原创内容的开源许可证尚未选定。
+
+整理记录、更名对照、校验和一份必要的原始备份集中在 [00_总索引](00_总索引/README.md)。本次整理未自动提交或推送，改动可在 VS Code 中查看后同步。

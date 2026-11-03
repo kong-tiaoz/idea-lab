@@ -1,0 +1,52 @@
+{
+  "status": "unsupported-live-write",
+  "applied": false,
+  "mpn": "TYPEC-507DSW-ACP24",
+  "supplierId": "C2895020",
+  "designator": "USB1",
+  "datasheet": {
+    "url": "https://datasheet.lcsc.com/datasheet/pdf/af2a99ad12712474cf5878fd7b13f3e5.pdf",
+    "sha256": "8805553309e0f40a4dbc6aead7a7779fda7b068f8b288148268a8f79b8cf000d",
+    "drawingPage": 1,
+    "drawingRevision": "A",
+    "note": "Page 1 is the exact model drawing; page 2 title names TYPEC-506RW-ACP24 and is not used for pin or land-pattern evidence."
+  },
+  "sourceFootprint": {
+    "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+    "uuid": "2a4e90851b774b2ab28cc10b94aeb61a",
+    "placedUuid": "e8c4b16f0e003ddf"
+  },
+  "observation": {
+    "padCount": 28,
+    "uniquePadNumberCount": 27,
+    "duplicatePadNumber": "25",
+    "missingPadNumber": "28"
+  },
+  "proposedEdit": {
+    "nativePadId": "e99",
+    "nativeCoordinatesMil": {
+      "x": -159.845,
+      "y": 77.26
+    },
+    "oldNumber": "25",
+    "newNumber": "28",
+    "net": "GND",
+    "geometryChanges": false
+  },
+  "numberingBasis": "Manufacturer drawing shows 24 contacts and four shell mounting feet. It does not assign shell numbers 25-28. These are library conventions; proposed numbering completes the existing symbol mapping, with all four shell pins already on GND.",
+  "preserve": [
+    "All A1-A12 and B1-B12 mappings",
+    "All pad copper, drill and solder mask geometry",
+    "Other shell pads 25, 26, 27",
+    "USB1 position and all wire connections",
+    "U1 and every other component"
+  ],
+  "blocker": "Current v1.15.0 typed action catalogue has no existing-footprint pad-number modification action. Footprint build supports only newly created empty assets; rebuilding is outside this minimal mapping correction.",
+  "acceptance": [
+    "28 distinct pad numbers: A1-A12, B1-B12, 25, 26, 27, 28",
+    "No pad geometry changes",
+    "USB1 and all other parts retain pin positions and expected nets",
+    "Native schematic PIN2PAD error removed",
+    "Explicit save:true, typed document reload, fresh readback"
+  ]
+}

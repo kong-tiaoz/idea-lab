@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-03",
+  "passed": true,
+  "scope": "F:\\idea-lab，本地文件整理；未连接 EDA 服务；未自动提交或推送",
+  "originalFiles": 52,
+  "renamedFiles": 46,
+  "unchangedOriginalFiles": 28,
+  "changedDocumentationAndIgnoreFiles": 24,
+  "fileCountExcludingGitInternals": 70,
+  "directoryMapNodes": 97,
+  "internalLinksPassed": true,
+  "jsonParsingPassed": true,
+  "edaNativeFiles": [
+    {
+      "file": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/onebigbutton-CH552G-A1_USB1修正前工程.epro2",
+      "sha256": "c429d4cb1ac1e517229d65424a2abfa29177d4fe224e8b6bfc9f0147ddd4bcf2",
+      "unchanged": true
+    }
+  ],
+  "backup": {
+    "file": "00_总索引/原始备份/2026-11-03_整理前资料与必要现场记录.zip",
+    "sha256": "e122691fab1780de4114941654701970c03d1666b30146fdd587419e20bb7a8e",
+    "zipIntegrityPassed": true,
+    "allOriginalEntriesSHA256Passed": true,
+    "necessaryEvidenceEntries": 10
+  },
+  "cleanup": {
+    "previousTemporaryFilesRemoved": 176,
+    "bytesRemoved": 6561715,
+    "newTemporaryFilesRemain": false,
+    "shortcuts": 0,
+    "junctions": 0,
+    "oldDirectoryEntries": 0
+  },
+  "mindmap": {
+    "offlineScriptChecksPassed": 13,
+    "horizontalTextBoundsChecked": 126,
+    "overlappingNodeLabels": 0,
+    "internalTextOverlaps": 0,
+    "fileTreeExact": true,
+    "browserVisualQA": "未完成：内置浏览器安全策略阻止 file://，未绕过限制",
+    "staticLayoutReview": "已检查静态布局预览和 Windows 字体边界；不等于浏览器截图"
+  },
+  "limitations": [
+    "三个旧连接目录按用户答复无关，未处理",
+    "原生 EDA 工程为 USB1 修正前导出，已显式标注；本次未重新导出",
+    "导图为本次实际结构快照；后续增删文件需要同步更新数据"
+  ],
+  "issues": []
+}

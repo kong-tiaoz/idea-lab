@@ -27,7 +27,11 @@ Thumbs.db
 *.swp
 ~$*
 # Downloaded upstream repositories; keep notes and links in references instead
-references/_clones/
+03_开源学习/_clones/
 
 # Local EDA automation cache and duplicate exports
 .easyeda/
+
+# 本地整理备份及原始路径清单（不公开上传）
+00_总索引/原始备份/*.zip
+00_总索引/整理前文件清单.json

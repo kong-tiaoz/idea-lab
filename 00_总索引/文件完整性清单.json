@@ -1,0 +1,341 @@
+{
+  "algorithm": "SHA-256",
+  "note": "排除本清单自身及汇总校验报告，避免自引用哈希；原始文件对账和 EDA 哈希见最终校验。",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 97,
+      "sha256": "1eedb96abe810417e3bd1624a51198d49d0db2a26b80e4b782d0df5e2a15036c"
+    },
+    {
+      "path": ".gitignore",
+      "size": 635,
+      "sha256": "dc4d25a3002f3c1e06f82c1451fb44fd4b7bb054e4ba7764977703cec84fb9bf"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "size": 114,
+      "sha256": "a3c5940fa261358d2569cb64e019fb5d244313bc8feffc419b2b58c9f9f2bd53"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "size": 319,
+      "sha256": "005318c4be502dc8ee02f7436aef36a8a4f9d904fa26ff4a157e181e0d678fbb"
+    },
+    {
+      "path": "00_总索引/README.md",
+      "size": 1062,
+      "sha256": "d8fcdbbbb91545e75aa07132ce732f2e5f0efa7fc1789a6aaf3f866e8e9ed0d0"
+    },
+    {
+      "path": "00_总索引/原始备份/2026-11-03_整理前资料与必要现场记录.zip",
+      "size": 1602952,
+      "sha256": "e122691fab1780de4114941654701970c03d1666b30146fdd587419e20bb7a8e"
+    },
+    {
+      "path": "00_总索引/原始备份/README.md",
+      "size": 791,
+      "sha256": "354b53a2847485b632e08a40cfaa146d3942c20c1919549685fe1f6c0e8f769b"
+    },
+    {
+      "path": "00_总索引/导图交互校验.json",
+      "size": 7189,
+      "sha256": "62936085b2086498134b4d19d5f15101a85559de526c2f0c7251ff78cc5e590a"
+    },
+    {
+      "path": "00_总索引/整理前文件清单.json",
+      "size": 45149,
+      "sha256": "14329c475581670631289b77542ae4c659c1a88a2f884a357a9a91669a1e136a"
+    },
+    {
+      "path": "00_总索引/整理实施记录.md",
+      "size": 1759,
+      "sha256": "7c3924b8a8be51e5642f6e2095ed523549657cd14d62a067e9cf6987730a652d"
+    },
+    {
+      "path": "00_总索引/更名对照.json",
+      "size": 14814,
+      "sha256": "50801cf3a5611039b597239dd6fcc867ccf5256552f89e571f07dc98341f1183"
+    },
+    {
+      "path": "00_总索引/更名对照.md",
+      "size": 5934,
+      "sha256": "6bc37986f69b61005e2498e9174447f7a956e6ffec0e3b01761bd3f7280d7696"
+    },
+    {
+      "path": "00_总索引/清理记录.json",
+      "size": 45474,
+      "sha256": "5c17f03153e0038d1630f46a9c85ad5a3f526a3e904db5815585927301dc8422"
+    },
+    {
+      "path": "00_总索引/用途索引.md",
+      "size": 2798,
+      "sha256": "e5012c773f93a83253298049c125b3fdbc2848fe6c24481a6544bf8940a6269e"
+    },
+    {
+      "path": "00_总索引/目录思维导图.html",
+      "size": 39660,
+      "sha256": "07e65b59112ea7b9b6f37068b4c3ead52ff3e2ccae3be40dd3056c10250d149f"
+    },
+    {
+      "path": "00_总索引/目录结构.json",
+      "size": 25520,
+      "sha256": "b78523f3bd0c3c9cd3e60f126e0d15883b588176df9b8042fcdddcf13d11e4c4"
+    },
+    {
+      "path": "01_创意收集/README.md",
+      "size": 430,
+      "sha256": "9da1067515c9a42f4937c3fb468aec5409115eca623edfa94d2bd7e0e31e4e9a"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/README.md",
+      "size": 1646,
+      "sha256": "632ab463f29129a6671e67331ded2e460768bdee32d8ad7e07ac0cf3f579f43d"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/图片与演示/README.md",
+      "size": 83,
+      "sha256": "21da2087e1dcfc49fa0838bda65025d0b33a700cfa0013e9a1e1679b7254931d"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/外壳结构/README.md",
+      "size": 104,
+      "sha256": "81f2ffc84144a1fdff7a23375172b3a7211dceecc5d5958f8d09ed1e36cd2966"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/测试记录/README.md",
+      "size": 128,
+      "sha256": "c3f133ce09fb65d32a431c6c5685f3f4234eda49cd463a8500744fa4f9cb42f2"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/电脑辅助程序/README.md",
+      "size": 116,
+      "sha256": "b7b831e29188e1334144b40e0c145085fdcf42de9130a085efb19722b851aa3f"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/2026-11-03_USB1修正后原理图.png",
+      "size": 597347,
+      "sha256": "d9c9a43512c8e7fc7d7ac6ed17652a866bafef74dfc2e28c25a5fb01dd0997e2"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/2026-11-03_USB1修正后检查记录.json",
+      "size": 2265,
+      "sha256": "a92168396938a7b9bf86bb981336db946a92d47dd308bab6944e76ff4fd14b19"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/onebigbutton-CH552G-A1_USB1修正前工程.epro2",
+      "size": 204907,
+      "sha256": "c429d4cb1ac1e517229d65424a2abfa29177d4fe224e8b6bfc9f0147ddd4bcf2"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/README.md",
+      "size": 3777,
+      "sha256": "acc943fea25c521db2c5928931bb0ed7fec72512ea5c78eaebf8c1b3b53ce1fe"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/TYPEC-507DSW-ACP24_厂家图纸.pdf",
+      "size": 182232,
+      "sha256": "8805553309e0f40a4dbc6aead7a7779fda7b068f8b288148268a8f79b8cf000d"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位清单.json",
+      "size": 2117,
+      "sha256": "d304c65c7130ef082559fee48f444f43023d0e09b2dd570a83c166523f77be9c"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位说明.md",
+      "size": 1921,
+      "sha256": "9ef4f11962e3564e8611c9362e81787ba27545016cc7e3853ea07e51f8e97fa2"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.png",
+      "size": 597347,
+      "sha256": "d9c9a43512c8e7fc7d7ac6ed17652a866bafef74dfc2e28c25a5fb01dd0997e2"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.svg",
+      "size": 180971,
+      "sha256": "280ac97749fb66ac597b349b88c29881de7070acc9449078a6e38aa16d68fd9b"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图校验记录.json",
+      "size": 6562,
+      "sha256": "57988e8038781aeaaed3e44df6634d2545e3584d84de796b83f67633db4d4c99"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/当前物料清单.md",
+      "size": 1064,
+      "sha256": "58f9f3811e28abd4ce54cd30ce567e6a552724af645759ad3447610504cf00cc"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/目标引脚连接.json",
+      "size": 1698,
+      "sha256": "4c85af79018b9cf8cb35b5e1471e1da7e1acc16a5969b5614b5c85ff0ad44875"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/逐脚连接表.md",
+      "size": 3330,
+      "sha256": "d41e046d5eb57fa7828511a53524ca260b3ca4d3a8baf3f123312c273370ee8f"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/README.md",
+      "size": 543,
+      "sha256": "638e21be50751128af75c0f7c2de0d124a39df9e6c7f955bc0e4420bee7fd80f"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.png",
+      "size": 167452,
+      "sha256": "dd17310f46c92e6993de6f47d2b7bb2608dc81fc7983e7fd07d90c50b872f79d"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.svg",
+      "size": 23360,
+      "sha256": "1bf928bd5687ec712e54dd5013bf4178a9661418bd86ae946389049d422c13c4"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.png",
+      "size": 199145,
+      "sha256": "f658f4f878876f9df6d3e387c99807f18b1ab1c7f233896cb9fba50078e33028"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.svg",
+      "size": 25544,
+      "sha256": "2f712ed94ac6272da0e1a17e33f99a6f578e380703606133336e7980c9b6d6ac"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.png",
+      "size": 230374,
+      "sha256": "7cfe1002904bca720e9ed0e191a97c4ce4b8aaa7118ee7b068b3d9ea995d7976"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.svg",
+      "size": 24695,
+      "sha256": "f0f51b3ad69ee5e8c18821e41af49a04eaa3764e1cffd0bdbdafde3ceb28a769"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/README.md",
+      "size": 4178,
+      "sha256": "9806648ee68210dd7f79644d5526e2dce867e472cc63420e702d12343436c3ef"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/RP2040_电路连接数据.json",
+      "size": 25149,
+      "sha256": "0aca7e80c808b502c00c42812332dfcd3e1164f383501ea840e2959f0d608698"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.csv",
+      "size": 1117,
+      "sha256": "adcf719faa9f8fe1f6b0d9016be9497f54f4a34435dbef9e95a4c99b7b9d5c70"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.md",
+      "size": 1916,
+      "sha256": "74d2352b50e5fe369e0770fb90f57a71338b2160241619e585c4de7589a917a3"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.csv",
+      "size": 3687,
+      "sha256": "865d103c16f424830111e8ee21eaa3ddc7d23835a03d9a6648e1c424851ce4f9"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.md",
+      "size": 8250,
+      "sha256": "db072b905d27df9c87d0b40e7fd2f6b271dfa905e8e788bcfc73ed31f341b700"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/设备固件/README.md",
+      "size": 107,
+      "sha256": "ffbe09118d428cc76adfb172c459b08df56217a3f427af9ebf06a788d94ac211"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/需求与计划/实现路线.md",
+      "size": 1126,
+      "sha256": "c3e77b37d5500be4c4cfab1a17cc038efe52dd6570e336e3bc9518d7d304103f"
+    },
+    {
+      "path": "02_项目实践/onebigbutton/需求与计划/需求记录.md",
+      "size": 1940,
+      "sha256": "0f37e68769fe4e4960e6bc2dc1f7d25b2d0b4b7e1bced53f91c70f94d2d33d5d"
+    },
+    {
+      "path": "02_项目实践/README.md",
+      "size": 455,
+      "sha256": "a8ef667341621538c967770ed9d68d92c9aee11cc3a02b52823984ffadf89acf"
+    },
+    {
+      "path": "03_开源学习/onebigbutton_开源参考.md",
+      "size": 798,
+      "sha256": "20b722a50e50384d090945cba2218405706a69980b2496f70917f9ede3429e9b"
+    },
+    {
+      "path": "03_开源学习/README.md",
+      "size": 621,
+      "sha256": "494bbffdfba3154b92b00af8abbe34da635d46e678cf2b8b248de9aa0cb362f9"
+    },
+    {
+      "path": "04_资料模板/README.md",
+      "size": 271,
+      "sha256": "9ac1a1223e4be5d32e7b70791442a0cfdbd379b9584c2110f9290d570a4f1eaf"
+    },
+    {
+      "path": "04_资料模板/创意记录模板.md",
+      "size": 161,
+      "sha256": "ebc450f2d65c85c024a6b19976fb9d3cc7dfbf9ebe72f717382cbf334e7a4f0f"
+    },
+    {
+      "path": "04_资料模板/开源学习记录模板.md",
+      "size": 341,
+      "sha256": "982634c8bcfd026ab62d16e4693ee72fa8c7e404c590f9cdd8ee102b243ff352"
+    },
+    {
+      "path": "04_资料模板/项目模板/README.md",
+      "size": 354,
+      "sha256": "2185daf464b932ca932386d28b640542f4d8b4a04a69c7672ec6d6725fbbf981"
+    },
+    {
+      "path": "04_资料模板/项目模板/图片素材/README.md",
+      "size": 95,
+      "sha256": "b6960cc2686b14085ddd1bf83d3f64f114c6d64c51b0cc2d3215147490d2a1e7"
+    },
+    {
+      "path": "04_资料模板/项目模板/测试记录/README.md",
+      "size": 104,
+      "sha256": "1b733d03405b5cae3436a068361f6dd5846527765d103399eab3978c03a074f2"
+    },
+    {
+      "path": "04_资料模板/项目模板/源代码/README.md",
+      "size": 77,
+      "sha256": "636d8fb515ae2cdf438983dcf4c2766bfd8a97ebc0d2812932c4779ba85a16d6"
+    },
+    {
+      "path": "04_资料模板/项目模板/说明文档/README.md",
+      "size": 65,
+      "sha256": "ad3735ca9fdd47e7375e7caa6196a4abffca6938fbe382d3a293516f7dd14db6"
+    },
+    {
+      "path": "05_使用说明/VSCode与Git同步指南.md",
+      "size": 1635,
+      "sha256": "47fe33cd6b844991b3b1101f6dacd12c9b11a63220141183d2451b6bd3441949"
+    },
+    {
+      "path": "05_使用说明/历史设计草案/2026-11-02_onebigbutton_USB方案草案.md",
+      "size": 6031,
+      "sha256": "5e63de3b8bf2c7b809c0c3df69dbdc5bbaea345efa4b0991aee360ec9467df41"
+    },
+    {
+      "path": "06_历史归档/README.md",
+      "size": 134,
+      "sha256": "1c79003e94a57aab911877535d41ab94f1c1ef43dfb80d27297a2c96283191a2"
+    },
+    {
+      "path": "idea-lab.code-workspace",
+      "size": 225,
+      "sha256": "e4071b40836dcbd3e40b03690897ab4ee93894ac1b0fb3428296cecf6998eeb8"
+    },
+    {
+      "path": "README.md",
+      "size": 2230,
+      "sha256": "3703890f8d5af6744956780fdeb004351e1fd20dd5b72e2784f859de4e7784dd"
+    }
+  ]
+}

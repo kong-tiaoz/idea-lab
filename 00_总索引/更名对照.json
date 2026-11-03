@@ -1,0 +1,348 @@
+{
+  "directories": {
+    "projects/onebigbutton/hardware/schematic-reference": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考",
+    "projects/onebigbutton/hardware/ch552g": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图",
+    "projects/onebigbutton/hardware": "02_项目实践/onebigbutton/硬件设计",
+    "projects/onebigbutton/docs": "02_项目实践/onebigbutton/需求与计划",
+    "projects/onebigbutton/firmware": "02_项目实践/onebigbutton/设备固件",
+    "projects/onebigbutton/software": "02_项目实践/onebigbutton/电脑辅助程序",
+    "projects/onebigbutton/enclosure": "02_项目实践/onebigbutton/外壳结构",
+    "projects/onebigbutton/assets": "02_项目实践/onebigbutton/图片与演示",
+    "projects/onebigbutton/test-results": "02_项目实践/onebigbutton/测试记录",
+    "templates/project/test-results": "04_资料模板/项目模板/测试记录",
+    "templates/project/docs": "04_资料模板/项目模板/说明文档",
+    "templates/project/src": "04_资料模板/项目模板/源代码",
+    "templates/project/assets": "04_资料模板/项目模板/图片素材",
+    "templates/project": "04_资料模板/项目模板",
+    "docs/superpowers/specs": "05_使用说明/历史设计草案",
+    "docs/superpowers": "05_使用说明/历史设计草案",
+    "ideas": "01_创意收集",
+    "projects": "02_项目实践",
+    "references": "03_开源学习",
+    "templates": "04_资料模板",
+    "docs": "05_使用说明",
+    "archive": "06_历史归档"
+  },
+  "files": [
+    {
+      "old": ".gitattributes",
+      "size": 97,
+      "sha256": "1eedb96abe810417e3bd1624a51198d49d0db2a26b80e4b782d0df5e2a15036c",
+      "new": ".gitattributes"
+    },
+    {
+      "old": ".gitignore",
+      "size": 457,
+      "sha256": "ebc283742fcafee14be573cd05a60b0f21a22dd04d218b07572ae3e724fcfc6c",
+      "new": ".gitignore"
+    },
+    {
+      "old": "idea-lab.code-workspace",
+      "size": 225,
+      "sha256": "e4071b40836dcbd3e40b03690897ab4ee93894ac1b0fb3428296cecf6998eeb8",
+      "new": "idea-lab.code-workspace"
+    },
+    {
+      "old": "README.md",
+      "size": 2760,
+      "sha256": "b73d39107073e2afd90bc6c91461a53883784f517fd18a86fbcd2c7c42f9a3aa",
+      "new": "README.md"
+    },
+    {
+      "old": ".vscode/settings.json",
+      "size": 114,
+      "sha256": "a3c5940fa261358d2569cb64e019fb5d244313bc8feffc419b2b58c9f9f2bd53",
+      "new": ".vscode/settings.json"
+    },
+    {
+      "old": ".vscode/tasks.json",
+      "size": 319,
+      "sha256": "005318c4be502dc8ee02f7436aef36a8a4f9d904fa26ff4a157e181e0d678fbb",
+      "new": ".vscode/tasks.json"
+    },
+    {
+      "old": "archive/README.md",
+      "size": 134,
+      "sha256": "1c79003e94a57aab911877535d41ab94f1c1ef43dfb80d27297a2c96283191a2",
+      "new": "06_历史归档/README.md"
+    },
+    {
+      "old": "docs/vscode-and-git.md",
+      "size": 1546,
+      "sha256": "5baac0b97c1a0cbfe39000197cab11f598a23644c71ae814961f71a033801e8e",
+      "new": "05_使用说明/VSCode与Git同步指南.md"
+    },
+    {
+      "old": "ideas/README.md",
+      "size": 394,
+      "sha256": "c62b57d4ddc61b4c12175434dc367830e5b8a1bd253ff326d8fada61abf0f967",
+      "new": "01_创意收集/README.md"
+    },
+    {
+      "old": "projects/README.md",
+      "size": 356,
+      "sha256": "999f7088edb1f19d330c56ce7729e28c174418f8db340924a51a26e78f1a06c7",
+      "new": "02_项目实践/README.md"
+    },
+    {
+      "old": "references/onebigbutton.md",
+      "size": 798,
+      "sha256": "20b722a50e50384d090945cba2218405706a69980b2496f70917f9ede3429e9b",
+      "new": "03_开源学习/onebigbutton_开源参考.md"
+    },
+    {
+      "old": "references/README.md",
+      "size": 582,
+      "sha256": "e2253030b5603dca106d12f4099b4108513e8df2d5fca2f295bcb93c33f43b1b",
+      "new": "03_开源学习/README.md"
+    },
+    {
+      "old": "templates/idea.md",
+      "size": 161,
+      "sha256": "ebc450f2d65c85c024a6b19976fb9d3cc7dfbf9ebe72f717382cbf334e7a4f0f",
+      "new": "04_资料模板/创意记录模板.md"
+    },
+    {
+      "old": "templates/README.md",
+      "size": 210,
+      "sha256": "972cc6c40b70404e5a77fa65dc6533bf9578b0ffadcbd78d0a52ed5f8d7a3ef4",
+      "new": "04_资料模板/README.md"
+    },
+    {
+      "old": "templates/reference.md",
+      "size": 341,
+      "sha256": "982634c8bcfd026ab62d16e4693ee72fa8c7e404c590f9cdd8ee102b243ff352",
+      "new": "04_资料模板/开源学习记录模板.md"
+    },
+    {
+      "old": "docs/superpowers/specs/2026-11-02-onebigbutton-usb-design.md",
+      "size": 6013,
+      "sha256": "a5ffedf2651f1d462ce7061c8c279123c72f6fef9701b99b1f1246cef0927c62",
+      "new": "05_使用说明/历史设计草案/2026-11-02_onebigbutton_USB方案草案.md"
+    },
+    {
+      "old": "projects/onebigbutton/README.md",
+      "size": 1569,
+      "sha256": "d93f027a415ea335aa8aacf6bc897b242347ab29b178b734dd2849073350a6fa",
+      "new": "02_项目实践/onebigbutton/README.md"
+    },
+    {
+      "old": "projects/onebigbutton/assets/README.md",
+      "size": 74,
+      "sha256": "45c659ccd56259879332a4464979a522f1f40e7ef2f579e9761548436c6c5c49",
+      "new": "02_项目实践/onebigbutton/图片与演示/README.md"
+    },
+    {
+      "old": "projects/onebigbutton/docs/requirements.md",
+      "size": 1940,
+      "sha256": "0f37e68769fe4e4960e6bc2dc1f7d25b2d0b4b7e1bced53f91c70f94d2d33d5d",
+      "new": "02_项目实践/onebigbutton/需求与计划/需求记录.md"
+    },
+    {
+      "old": "projects/onebigbutton/docs/roadmap.md",
+      "size": 1020,
+      "sha256": "5001e6503a1626fe0fdb4127fc9c3c2ae4528de191b2120e818943d464499125",
+      "new": "02_项目实践/onebigbutton/需求与计划/实现路线.md"
+    },
+    {
+      "old": "projects/onebigbutton/enclosure/README.md",
+      "size": 101,
+      "sha256": "833bb640a30925d2ea1ade16a8024dc3036c6e459060d0134dc09ae04f63fb43",
+      "new": "02_项目实践/onebigbutton/外壳结构/README.md"
+    },
+    {
+      "old": "projects/onebigbutton/firmware/README.md",
+      "size": 103,
+      "sha256": "11e44cf509c5c22971f3089b6ed2a08cdad3a9e9d3f2d75289f65b2c9fdc324e",
+      "new": "02_项目实践/onebigbutton/设备固件/README.md"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/README.md",
+      "size": 512,
+      "sha256": "5f955e33431331a2cde96079fd7f7d4a1b71a4de092374fc5b5f62bb61b9e869",
+      "new": "02_项目实践/onebigbutton/硬件设计/README.md"
+    },
+    {
+      "old": "projects/onebigbutton/software/README.md",
+      "size": 106,
+      "sha256": "876298bcf1676083576456569f45c5596b2e5ac37d23e0ebe97ad104f8cb7f9b",
+      "new": "02_项目实践/onebigbutton/电脑辅助程序/README.md"
+    },
+    {
+      "old": "projects/onebigbutton/test-results/README.md",
+      "size": 128,
+      "sha256": "ad85bc2c0767a8dceb99c5279a499a10b6c202554dd45f1731ad72d4cb6349ea",
+      "new": "02_项目实践/onebigbutton/测试记录/README.md"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/bom.md",
+      "size": 1088,
+      "sha256": "1f5bbd174f47f2ce73cbd13a8710d590b314b81a1978a8e1318c4c72c5ad5267",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/当前物料清单.md"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/connections.md",
+      "size": 3504,
+      "sha256": "a7c432411ff7d556b2ff993375e9e882783af75ef1ba30eaea00b92067a92180",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/逐脚连接表.md"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/onebigbutton-ch552g-a1.epro2",
+      "size": 204907,
+      "sha256": "c429d4cb1ac1e517229d65424a2abfa29177d4fe224e8b6bfc9f0147ddd4bcf2",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/onebigbutton-CH552G-A1_USB1修正前工程.epro2"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/README.md",
+      "size": 3508,
+      "sha256": "fab653c6b9034f85916523896635fcf0236a5f3c8c77b884aeb252951677bd40",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/README.md"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/schematic.png",
+      "size": 597347,
+      "sha256": "d9c9a43512c8e7fc7d7ac6ed17652a866bafef74dfc2e28c25a5fb01dd0997e2",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.png"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/schematic.svg",
+      "size": 180971,
+      "sha256": "280ac97749fb66ac597b349b88c29881de7070acc9449078a6e38aa16d68fd9b",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图导出.svg"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/target-connections.json",
+      "size": 1698,
+      "sha256": "4c85af79018b9cf8cb35b5e1471e1da7e1acc16a5969b5614b5c85ff0ad44875",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/目标引脚连接.json"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/usb1-pin-mapping-fix.json",
+      "size": 2117,
+      "sha256": "d304c65c7130ef082559fee48f444f43023d0e09b2dd570a83c166523f77be9c",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位清单.json"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/usb1-pin-mapping-fix.md",
+      "size": 1802,
+      "sha256": "272ee6c9d436a40141f0366eff12be0c28f0c3de0d71b5d398f2fa8c0c1c42a3",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1_修正前定位说明.md"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/ch552g/verification.json",
+      "size": 6562,
+      "sha256": "57988e8038781aeaaed3e44df6634d2545e3584d84de796b83f67633db4d4c99",
+      "new": "02_项目实践/onebigbutton/硬件设计/CH552G_原理图/USB1修正前_原理图校验记录.json"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/01-usb-power.png",
+      "size": 167452,
+      "sha256": "dd17310f46c92e6993de6f47d2b7bb2608dc81fc7983e7fd07d90c50b872f79d",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.png"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/01-usb-power.svg",
+      "size": 23360,
+      "sha256": "1bf928bd5687ec712e54dd5013bf4178a9661418bd86ae946389049d422c13c4",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/01_USB接口与供电.svg"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/02-mcu-flash-clock.png",
+      "size": 199145,
+      "sha256": "f658f4f878876f9df6d3e387c99807f18b1ab1c7f233896cb9fba50078e33028",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.png"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/02-mcu-flash-clock.svg",
+      "size": 25544,
+      "sha256": "2f712ed94ac6272da0e1a17e33f99a6f578e380703606133336e7980c9b6d6ac",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/02_主控与Flash及晶振.svg"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/03-power-button-debug.png",
+      "size": 230374,
+      "sha256": "7cfe1002904bca720e9ed0e191a97c4ce4b8aaa7118ee7b068b3d9ea995d7976",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.png"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/03-power-button-debug.svg",
+      "size": 24695,
+      "sha256": "f0f51b3ad69ee5e8c18821e41af49a04eaa3764e1cffd0bdbdafde3ceb28a769",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/03_电源与按钮及下载调试.svg"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/bom-draft.csv",
+      "size": 1117,
+      "sha256": "adcf719faa9f8fe1f6b0d9016be9497f54f4a34435dbef9e95a4c99b7b9d5c70",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.csv"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/bom-draft.md",
+      "size": 1882,
+      "sha256": "0d8508de74a7692676b19fefc879e987559c99bfc3436647f7339ff6b73e081a",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/物料清单草案.md"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/circuit.json",
+      "size": 25149,
+      "sha256": "0aca7e80c808b502c00c42812332dfcd3e1164f383501ea840e2959f0d608698",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/RP2040_电路连接数据.json"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/pin-connections.csv",
+      "size": 3687,
+      "sha256": "865d103c16f424830111e8ee21eaa3ddc7d23835a03d9a6648e1c424851ce4f9",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.csv"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/pin-connections.md",
+      "size": 8236,
+      "sha256": "a4547de11570c42f615b4a2bb177b3b22ee79de3ed4b4ec0b6d907fdb68cf9dd",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/逐脚连接表.md"
+    },
+    {
+      "old": "projects/onebigbutton/hardware/schematic-reference/README.md",
+      "size": 4093,
+      "sha256": "467f6260b3d46785fb25fc0b1a2147d914c5cb3543ad3096ed5bbec1e0dc485a",
+      "new": "02_项目实践/onebigbutton/硬件设计/RP2040_历史参考/README.md"
+    },
+    {
+      "old": "templates/project/README.md",
+      "size": 334,
+      "sha256": "1b89e66c1e973b0eea71c7f1c10c4218c7d4192fe1d7c9781265ead033fdade0",
+      "new": "04_资料模板/项目模板/README.md"
+    },
+    {
+      "old": "templates/project/assets/README.md",
+      "size": 95,
+      "sha256": "b6960cc2686b14085ddd1bf83d3f64f114c6d64c51b0cc2d3215147490d2a1e7",
+      "new": "04_资料模板/项目模板/图片素材/README.md"
+    },
+    {
+      "old": "templates/project/docs/README.md",
+      "size": 65,
+      "sha256": "ad3735ca9fdd47e7375e7caa6196a4abffca6938fbe382d3a293516f7dd14db6",
+      "new": "04_资料模板/项目模板/说明文档/README.md"
+    },
+    {
+      "old": "templates/project/src/README.md",
+      "size": 77,
+      "sha256": "636d8fb515ae2cdf438983dcf4c2766bfd8a97ebc0d2812932c4779ba85a16d6",
+      "new": "04_资料模板/项目模板/源代码/README.md"
+    },
+    {
+      "old": "templates/project/test-results/README.md",
+      "size": 104,
+      "sha256": "1b733d03405b5cae3436a068361f6dd5846527765d103399eab3978c03a074f2",
+      "new": "04_资料模板/项目模板/测试记录/README.md"
+    }
+  ],
+  "unchangedConventions": [
+    ".git",
+    ".vscode",
+    "README.md",
+    "settings.json",
+    "tasks.json",
+    "idea-lab.code-workspace"
+  ]
+}

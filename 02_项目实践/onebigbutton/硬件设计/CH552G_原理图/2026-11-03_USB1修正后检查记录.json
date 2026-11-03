@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-03",
+  "source": "整理前已存在的现场回执；本次未调用 EDA 服务",
+  "drc": {
+    "passed": true,
+    "nativePassed": true,
+    "strict": false,
+    "fatal": 0,
+    "summary": {
+      "fatal": 0,
+      "error": 0,
+      "warn": 1,
+      "info": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "violations": [
+      {
+        "level": "warn",
+        "type": "warn",
+        "rule": "ATTRMATCHCODE",
+        "raw": {
+          "primitives": [
+            {
+              "name": "USB1($1I3)",
+              "primitiveId": "b52ccd3d08510902",
+              "sheet": "9fcd404002c3eed0"
+            }
+          ],
+          "rule": "ATTRMATCHCODE",
+          "type": "warn"
+        }
+      }
+    ],
+    "countsAvailable": true,
+    "detailsAvailable": true
+  },
+  "connections": {
+    "passed": true,
+    "summary": {
+      "floatingPins": 0,
+      "componentsWithFloating": 0,
+      "geomNetMismatches": 0,
+      "netMarkerMismatches": 0,
+      "multiNetWires": 0,
+      "wireCrossings": 0,
+      "wireOverPins": 0,
+      "zeroLengthWires": 0,
+      "danglingWires": 0,
+      "duplicateNetMarkers": 0,
+      "titleblockOverlaps": 0,
+      "outOfSheet": 0,
+      "markerOverlaps": 0,
+      "missingPartitions": 0,
+      "redundantNetMarkers": 0,
+      "foldedNetLabels": 0,
+      "reversedNetFlags": 0,
+      "polarityConventionOutliers": 0,
+      "total": 0
+    },
+    "findings": []
+  },
+  "bridges": {
+    "passed": true,
+    "summary": {
+      "trees": 0,
+      "bridges": 0,
+      "orphans": 0,
+      "orphanFlags": 0,
+      "orphanTrees": 0,
+      "wireTreesTotal": 55
+    },
+    "trees": []
+  },
+  "pinMap": {
+    "partCount": 18,
+    "connectedPins": 62,
+    "noConnectPins": 18,
+    "issues": [],
+    "passed": true
+  },
+  "save": {
+    "saved": true
+  },
+  "reloadWrapper": {
+    "status": "partial",
+    "note": "原始重载包装器在关闭后身份检查失败，不能改记成功；随后原理图重新打开，完整现场回读成功，连接与检查结果保持一致。"
+  },
+  "nativeArchive": "仓库内 epro2 为 USB1 修正前导出；本次按要求不操作连接服务，因此未重新导出。",
+  "limits": [
+    "尚有 USB1 ATTRMATCHCODE 警告",
+    "尚无 PCB、固件或实板验证"
+  ]
+}

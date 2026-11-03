@@ -1,0 +1,1065 @@
+{
+  "deletedFiles": [
+    {
+      "old": ".easyeda/artifacts/20261103-134450-schematic_export-682f0a1d.png",
+      "size": 604147,
+      "sha256": "c1cab79295cea2dcdb0ad1492bae1187ddd3923d55490794b4f78c58e2aa0e39",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": ".easyeda/artifacts/20261103-134451-schematic_export-518fc0a3.svg",
+      "size": 181672,
+      "sha256": "3eddfd40244ae7f063422ee3a68f35a5301eed0c5c91984dcbfd3302068250e8",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": ".easyeda/artifacts/20261103-134840-schematic_export-56a7073d.png",
+      "size": 597347,
+      "sha256": "d9c9a43512c8e7fc7d7ac6ed17652a866bafef74dfc2e28c25a5fb01dd0997e2",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": ".easyeda/artifacts/20261103-134842-schematic_export-42ff289a.svg",
+      "size": 180971,
+      "sha256": "280ac97749fb66ac597b349b88c29881de7070acc9449078a6e38aa16d68fd9b",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": ".easyeda/artifacts/20261103-141917-schematic_export-acccde52.png",
+      "size": 597347,
+      "sha256": "d9c9a43512c8e7fc7d7ac6ed17652a866bafef74dfc2e28c25a5fb01dd0997e2",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/actions.json",
+      "size": 152410,
+      "sha256": "bdede60fba6148ad93f68002499a7b0fa0c7a5b622253cabf36dc5df7628414f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/all-placed.json",
+      "size": 69644,
+      "sha256": "fc60b67d97b910952b5bffc6d0b9030b6f0ed3aca91292ee94d3cef20500c107",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/archive-audit-docs.json",
+      "size": 996207,
+      "sha256": "ea6dc89167da88918876264e8291eee041f1cced85a856efb71d54beaca0585f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/audit_archive.py",
+      "size": 1761,
+      "sha256": "4f3afc5a99d72a3e94db3c816e5b3cb09f81b5ea900919c1fe753ceb67deae9c",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/before-display-fix.epro2",
+      "size": 206775,
+      "sha256": "e260551c01111bc259cfcb2d0f5120719191e4a58430f5c17c6a0e8d9e971f75",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/before-markers.json",
+      "size": 80066,
+      "sha256": "48bb9fde9e6d490b20b630090a28e4dd54965a1aaf8ddc3cf70334acae44ed61",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/before-net-cleanup.json",
+      "size": 111132,
+      "sha256": "52d4e545926dd86d2a221ea6f16cb5ea3745b295f6774a5ca11dd92fa3949fd6",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/before.json",
+      "size": 21829,
+      "sha256": "148f1d569ed4627602079fb0b5208dcbbb3aede68da265554f5c47624de06d5d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/btn-core-label.json",
+      "size": 1441,
+      "sha256": "f229bddb11519ec71d239c6d6655a966f06765f9c51fa8f5258229042062d2f4",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/btn-label.json",
+      "size": 1441,
+      "sha256": "0a695a1c0b5b4f3cc4a14a5afc629e0b96b4a21774bcdc1fa15d5301cd9805c4",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/candidate-parts.json",
+      "size": 3333,
+      "sha256": "df0bffda72953506287092cf5f8ac8b2a40cda277da11db4b16e87f7d555b4f0",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/cap10n-search.json",
+      "size": 1897,
+      "sha256": "0ecebe1b10f0f8212400c762213eba4e61448d391d4aa16ad58164c25d23cd89",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-audit.epro2",
+      "size": 189653,
+      "sha256": "36dc5c0868cee3fdf2f7a0af31625e941ed77d707ccb035fe6105a3e8eaa06ef",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-before.json",
+      "size": 371,
+      "sha256": "5840d488dd865b6bec70fb72eba497e353875cd46ddbea28077c75b9bdc7958b",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-bridge.json",
+      "size": 289,
+      "sha256": "94b0c4328636f9d4543b774e10ccfe418aaed00f52959482c0ad946d234a529a",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-check.json",
+      "size": 700,
+      "sha256": "2c3d2dac2a79d5efee51a0b33fa44630290287e03b606133cf27d76d45c1f574",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-components-before.json",
+      "size": 21243,
+      "sha256": "001acf8afd9ccdf5ae19517790c102e023430d6f898620fb25e8bbc81cf8f32f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-direct-plan.json",
+      "size": 2842,
+      "sha256": "7947d99f169df2b544175a2196ade07f2f2f1f0c724a7217c1e2577fc1a51748",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-drc.json",
+      "size": 601,
+      "sha256": "a951f541e65dd376a7dbe5f3e45f1a0fdaf963d7462f47a7d0c6fb4536763f8a",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-final.json",
+      "size": 111132,
+      "sha256": "97e66d6df2dbb24a1513c2f02a5d9f00fc905f3432872975420b673e3a79a99f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-frame.json",
+      "size": 389,
+      "sha256": "d3c9066810a2374cf9b6761516466ae13b259e0aebdf3db6bce305a1734dd730",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-initial-save.json",
+      "size": 864,
+      "sha256": "c7941e6981a203fc2c24f871b1558f2c777e2aed41f4eafbd230a4fe96c14bf2",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-pin-verification.json",
+      "size": 155,
+      "sha256": "106b8bf706948f1c97135ea2f8ae0f6fa0e5d3614eaad37f62fff7a6f08ed8a0",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-placements.json",
+      "size": 2520,
+      "sha256": "797f9c65876a872a298484ca82afb4e0f42887ba9e2e0f3182c6a9191daec14a",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-target.json",
+      "size": 1580,
+      "sha256": "64fa21eb3b350e85a4bacf1dc1920c47408a6ded649c6dff29a3f8e1579abc1f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/ch552-title.json",
+      "size": 299,
+      "sha256": "e806c97ebf8d7347d2b037adb6ba3c7228e83ebc17c80865b0462e8f31f62dce",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/check_reference.py",
+      "size": 1543,
+      "sha256": "a48a0daba778fd695af4a0e7e3040945fc599ab1c1a3dc2cea787533129e4648",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/clean-btn-core-label.json",
+      "size": 1443,
+      "sha256": "f07cb5e70932790d7aec899f006449575133261c0609b204254d7db09f8f3e55",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/clean-btn-label.json",
+      "size": 1443,
+      "sha256": "059acb10f56698811795af11636fb374b2d9433e90fda81c152937bd42b1b20e",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/clean-reset-core-label.json",
+      "size": 1443,
+      "sha256": "650c242a737a77a78c3482af42cc890e02636d7e11ea68c345e7581147b92a77",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/clean-v33-label.json",
+      "size": 1442,
+      "sha256": "df1103060a5300de83e33250be8c885e377f431b015f7dfab36089905ef0bd48",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/clean-wire-button-node.json",
+      "size": 1661,
+      "sha256": "6fdea3738603e19721211799b23fd5189bfb290009ed04cb698bf37eb0ce441c",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/clean-wire-button-rc.json",
+      "size": 1522,
+      "sha256": "8a8f61bccca8434abaa0eeabf0b4b90a5981ba67c561ffccdaed0d5bea484716",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/clean-wire-mcu-button.json",
+      "size": 1389,
+      "sha256": "9f3f957c14f1d554a4c17c635e02363eeb9b6979e5716f1b7a0543124186defc",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/clean-wire-mcu-reset.json",
+      "size": 1389,
+      "sha256": "66d80f916267347334fc1ee4e763edf284118e1a01b2a863ca9acffdf9f9601b",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/clean-wire-v33-cap.json",
+      "size": 1457,
+      "sha256": "c6deca22e88af8c2625f8217e66482c325e4c141eda0eaed1bb0985917eb7fd0",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-C1-2.json",
+      "size": 1341,
+      "sha256": "51d9b3b4450f86b7a73d672ff8acd6af488028909c68e26199cabbffd8710515",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-C2-2.json",
+      "size": 1341,
+      "sha256": "3c9ac56a84307ef278a4920be551225f922d5e584aefed2b366a629fbc0fc362",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-C3-1.json",
+      "size": 1934,
+      "sha256": "e31ef1387cc69ad34a923f2b5008b6d2c759130071f781bd6b9adad7a3295c74",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-C3-2.json",
+      "size": 1341,
+      "sha256": "3c3584ff9c6305724242cb9fd892b0c57795a908768ca2f8d88acf6fea74302d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-C4-2.json",
+      "size": 1340,
+      "sha256": "274aee564f5f4c4bd02f12f6629efc837a902be6f2ced30f1fe814631ebed219",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-C5-1.json",
+      "size": 1934,
+      "sha256": "eff0edc277d7a64ffeed166192104a67217b37a3dd20ae5f6ad44e98eaf43ca6",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-C5-2.json",
+      "size": 1341,
+      "sha256": "3e41bf6b6c16f5fc8cd7707a316a93986833ee128e0f4a3857666a98ea17f4b6",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-J1-2.json",
+      "size": 1939,
+      "sha256": "388966b09b11eaea86f26d0601f788361e73e3fe00e8b606a30fdfbd260609af",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-LED1-1.json",
+      "size": 1943,
+      "sha256": "ce083ef030464714108371210b03fc419216615edd25875b6751db413e39ed5f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-R1-1.json",
+      "size": 1933,
+      "sha256": "caf57c6978284327f445a9340c617075d0a74579ee25ae758ef6fdd99282bbd4",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-R1-2.json",
+      "size": 1341,
+      "sha256": "3292d2c0dcd7f7645ec86db80503f5008f52abf23553a18e37fe791b7ab8333d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-R2-1.json",
+      "size": 1933,
+      "sha256": "ce430c4bdc602714da8a1680c0de3f4b2534e6203ec68b20fdf5dc72c75aecbb",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-R2-2.json",
+      "size": 1341,
+      "sha256": "8c7f0d87d6f434e082f2f10dc493d6076aa77b78be57ec1c7a163010350c003c",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-R3-1.json",
+      "size": 1938,
+      "sha256": "2c2949d7a836b8e614fbbe29e5b0a29185fb04a7afc94dacd618bcd70a797db3",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-R4-1.json",
+      "size": 1934,
+      "sha256": "5a6702dde90ebbbd1bc6f0e253e5968fc8645e368bf28f614ac04bfe09c9bd7c",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-R6-1.json",
+      "size": 1937,
+      "sha256": "9aa162a8534c7462fc71c33cb0e8167ad44d2286aa5e2c2d3e4000afbbb72773",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-SW1-2.json",
+      "size": 1939,
+      "sha256": "8cdd00f9d035e42e11b83ae98767fb393c235ff5d95ed488cebc4579fea36a6f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-SW2-1.json",
+      "size": 1938,
+      "sha256": "52a3534e8d442b594125ccbc7a31b665d0ffb5c31f9d34ff2d442d04d4614646",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-SW2-2.json",
+      "size": 1939,
+      "sha256": "cba800ab496d44701074007dca7b956adad8211a54fe5f709fa3b369f0a5639d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U1-11.json",
+      "size": 1940,
+      "sha256": "8ed5ebc4b015ddc37d595b9ba771051a5fb345b26073e1c1c59589eaa7d13228",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U1-12.json",
+      "size": 1939,
+      "sha256": "e02c4653943448edcac0c7d890c556f6e11ab343d62145d54bf7b5f0489ddd43",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U1-13.json",
+      "size": 1939,
+      "sha256": "d2ba3f2281b05021ced9fa63ac6e42af1b1f84a60b29d5702f974929be5b0b78",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U1-14.json",
+      "size": 1940,
+      "sha256": "9ba1a8ab3cc050dcd18e9cb6a098d3fcc5906bf99f8d31b712775d44b3558956",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U2-1.json",
+      "size": 1936,
+      "sha256": "f2d3887a5e37fd5ad2ecba928a45530f04510b8aaee493d194632ca526aaf911",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U2-2.json",
+      "size": 1937,
+      "sha256": "687c471d27c4b041881acaa6221ef2ef281fca0d64a99db945d9feb9e9e26992",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U2-3.json",
+      "size": 1936,
+      "sha256": "c29965b842a7758cbb267a90117d62d187e4b1004346f7db7ad285fb74d6836f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U2-4.json",
+      "size": 1939,
+      "sha256": "d08b8a74a11e034f043a344c45696bd9030c936986e1978d340182f26755a440",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U2-5.json",
+      "size": 1941,
+      "sha256": "13fe07525ecaece960d3adf1002bc5e4c97dc976d24929826ac7c628ac43f09f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-U2-6.json",
+      "size": 1939,
+      "sha256": "a3d358d36aa7cc08b82aacad6cef17bd1fe8176940fba49430115d576a18c4ae",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-25.json",
+      "size": 1341,
+      "sha256": "37f79d517d356b39bbf7de587779792738314606c11709af5a01187073535b06",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-26.json",
+      "size": 1341,
+      "sha256": "9d1508af4442648a5fa25e4efd886c4adcb1b67e351fea5de577c90ba8feb87b",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-27.json",
+      "size": 1343,
+      "sha256": "f1dd218ba5831ca489b8a97cc8bc1d0c5e453bdf23400b9c611e0ec676d5936b",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-28.json",
+      "size": 1341,
+      "sha256": "8b76c9b4c9012d76ad9cf1577106c6037142b16e02263975603c941251a36cd7",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-A1.json",
+      "size": 1937,
+      "sha256": "dd732adc5028e83d01eaaa148b3695584ad18f9fb4b6c57814dbd7dc403467cc",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-A12.json",
+      "size": 1936,
+      "sha256": "f5080fb6a536a52e2e067b82931f231b4742f9aa5e00417895fc99199442e220",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-A4.json",
+      "size": 1938,
+      "sha256": "23ada7feef37b471b85c9c8e83db11cb7b9d339028c68dd517b83a3c7ba1ae50",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-A5.json",
+      "size": 1937,
+      "sha256": "22eef826cee7f5af17473001ac3077daf6c342621aaa4249754b66deb232faae",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-A6.json",
+      "size": 1936,
+      "sha256": "8b7d1e9767fb6a572db6044c11b47a6e8e5253521622ba6d9c457d862ed0890a",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-A7.json",
+      "size": 1936,
+      "sha256": "a43772ed8c0b538d380619aa3e683c31510287563ee42a6a08e08080a1a5e626",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-A9.json",
+      "size": 1938,
+      "sha256": "8f4c1b95cedb3f25faf83922cdf508284bcc78e9ec7dd01336b7d4bf9ee85e37",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-B1.json",
+      "size": 1940,
+      "sha256": "98a1b004edbf1efb175dda4c2bcb4fbd884afec72e3c734d082b4aa1ec783262",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-B12.json",
+      "size": 1939,
+      "sha256": "ed66c13feaa0d825c3f59a2fd0146d7d2f92b35cb3bd6c119324a15166c7ea36",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-B4.json",
+      "size": 1941,
+      "sha256": "a5b39dc7d257bd780a4c5cd69e86b66f5efa8115ef140443c21e8a01783b767e",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-B5.json",
+      "size": 1940,
+      "sha256": "fb83c44fc81fbce33868b930236a35988acaa52cdb5f0b4e3cfca2abb1ad1725",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-B6.json",
+      "size": 1939,
+      "sha256": "78f18270fd7f818003d23b8962b2d40c05c370c2f533c8581bcc0144a9bc9a39",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-B7.json",
+      "size": 1939,
+      "sha256": "d95b6091fa31f6d3c05cc7c473138a7e52fd8aa8d8056c287397e1fa597cbfc1",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/connect-USB1-B9.json",
+      "size": 1941,
+      "sha256": "1dd94745da6d136b6d2e811a42592f868870b97bbe422ffe25f989a47a0075f0",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/datasheet-page1-0-Image1.jpg",
+      "size": 11699,
+      "sha256": "aaf8ebd51f4ca27fa96217d669f1e72286146d3666bf920673f5ab57892f5e4f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/datasheet-page1-1-Image2.jpg",
+      "size": 1693,
+      "sha256": "204ae069fa2c8d0ea4001dddf486351ee050b4639d5d1717567fe181baac3150",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/datasheet-page2-0-Image1.jpg",
+      "size": 11699,
+      "sha256": "aaf8ebd51f4ca27fa96217d669f1e72286146d3666bf920673f5ab57892f5e4f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/datasheet-page2-1-Image2.jpg",
+      "size": 1693,
+      "sha256": "204ae069fa2c8d0ea4001dddf486351ee050b4639d5d1717567fe181baac3150",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/export-audit.json",
+      "size": 405,
+      "sha256": "593ba1474233839a988c91a0cf7ef831ecb23328da0e393e75f9dfd8d3fa0742",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/export-final.json",
+      "size": 433,
+      "sha256": "127c52ada423fd1957ec35a717efc37b846620d8be9879d010f7cd8cb30073f4",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/export-png-final.json",
+      "size": 1536,
+      "sha256": "a40668b94237f978aae963e1e7b0de771ea857a77b090e531e1fe8fc2e65bfc4",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/export-png.json",
+      "size": 1536,
+      "sha256": "4820cac85f85794860ad267e7111ff2a3494ccd40e27a8d31e225d354393bf1d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/export-svg-final.json",
+      "size": 1540,
+      "sha256": "58b7dee8e21c4435da9d09653f9010c95eaabb0697c542b7289c2de6cf914059",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/export-svg.json",
+      "size": 1540,
+      "sha256": "7b18a83e43a18d338d300ff7137a663fd99b918b817e1d7030e7ef838b56c8ae",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/final-reload-last.json",
+      "size": 3854,
+      "sha256": "bb659ba6f1dba314ea74b874e5b524459fc022d16f230dbc904511be1433079b",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/final-reload.json",
+      "size": 3852,
+      "sha256": "6d95d1db764b10b1be70952f348ec5da43347f0943fc26992033e1cd34544528",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/final-save.json",
+      "size": 868,
+      "sha256": "05b42ae9fcfbd890825d09181efe3dca6fd10a615f310a473795e90088e15088",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/final_report.py",
+      "size": 2597,
+      "sha256": "32055c96beace29c89f5411bda7fdeabdb56618501998f468a5236602035072d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/frame-result.json",
+      "size": 934,
+      "sha256": "fac883796a176f76fe52702f45a609acfda613b10863890be377ee6891cf12b6",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/header-search.json",
+      "size": 1601,
+      "sha256": "2efc76a76ddcc99ec90e16a88dcb208033976f882c036e6a76d05d2a325c633f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/identity-check.json",
+      "size": 121602,
+      "sha256": "45ebb3c54844e8b56754f50f74e0193d35342c43a6db9e41a5df65b21c37cf43",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/marker-plan.json",
+      "size": 5647,
+      "sha256": "9bbf8d6f07c61f83356855154a462dbabc2e71d0b8af0089154da3a0ba3703ea",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/nc-u1.json",
+      "size": 1500,
+      "sha256": "df309dfce9cb8e91ec0c334f600374a01b882bc75520df77f8d8e9658bb84b53",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/nc-usb.json",
+      "size": 1645,
+      "sha256": "31b4182f6b9d24a9690a49852f3aa090211df8ea7104e6a742b8e7d7635d7104",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-C1.json",
+      "size": 2727,
+      "sha256": "e9f86d435b0b865f59ea3ba0f5114b4455f40818b2fec9207ee9c003172314f8",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-C2.json",
+      "size": 2726,
+      "sha256": "68d366e5de5f1cda1a596ef7b1fdd57eaea4691757f01288d51fe6f79845e9f2",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-C3.json",
+      "size": 2713,
+      "sha256": "045164ce4a62cce84b7b432b95c5dd33857f4a662cf3837a88a261af58612402",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-C4.json",
+      "size": 2766,
+      "sha256": "3f8a81ee8c15d5c7b936c12aa2c5ed796e2b50598afc84f7a5c92d35029151e5",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-C5.json",
+      "size": 2727,
+      "sha256": "5dfb13320016e948ffa9d2c9bbeca984f05742ed546517b97662475fc16d9359",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-J1.json",
+      "size": 3286,
+      "sha256": "8513f56da5d8deecefe84477691b78523e288e725f152604b735d3d436ee45fb",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-J2.json",
+      "size": 3450,
+      "sha256": "357a116a44a852dd63366524fe8d49488a3f564508645006ff178877c746e5a8",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-LED1.json",
+      "size": 3338,
+      "sha256": "d3211273a62c691ce698f2f5604ce021c61300458b921ec0f977cefcd52b5922",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-R1.json",
+      "size": 2905,
+      "sha256": "439d736cc102558f00edb165e8a84a36d12a3acf991a007acf73fe350bd53112",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-R2.json",
+      "size": 2905,
+      "sha256": "5e2adfe1894c8df726c4a8cbcd0ff95865c50c56f27e2da3314f73c2aa9ad2a1",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-R3.json",
+      "size": 2900,
+      "sha256": "f4535c39b38f9e17e9e288e045c2d5b80996a47dc01da84be13b27fb25e64869",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-R4.json",
+      "size": 2902,
+      "sha256": "3a23587e3c47b9235024673e7fa11fb0fb7be06ba10d64e6064f8945405391fb",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-R5.json",
+      "size": 2897,
+      "sha256": "27be1cbc73c2271f67b3bc0040a959b62d23be0d50da61a1f807b927e460f09d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-R6.json",
+      "size": 2897,
+      "sha256": "5e5b08cc68c9ac2c320b69d7ecf8a60d3532f6782f545b64445eb64924aaa0a9",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-SW1.json",
+      "size": 2515,
+      "sha256": "a24e0b7d55c946ea22791c5d227e1b96b767addc66f1f10bdb393e292954c255",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-SW2.json",
+      "size": 2516,
+      "sha256": "52cebbe08aa04464191d36bfb5ac71520bab3db51450fe029df99a6d0dc59414",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/place-U2.json",
+      "size": 3163,
+      "sha256": "411b7d5cf5d56b929f082b7fa9652bc321cca29207a55ce9c8e50d7f154abe89",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/recovery-ready.json",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/remove-added-header.json",
+      "size": 1074,
+      "sha256": "5baabc4052a2aab46cae0e4c57d56b53530ae64d9939393073a3c024e71f5853",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/remove-duplicate-net-attributes.json",
+      "size": 1142,
+      "sha256": "765de75b9a0deb730d1e5d2939962fb48f519844fc809a2f8a7e754a417795be",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/remove-duplicate-wire-trees.json",
+      "size": 1151,
+      "sha256": "4812943a7634361332c81a11f381529aaa4a3cded56cc01c1d02f39b95b5dd2f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/render_reference.py",
+      "size": 14406,
+      "sha256": "0601f21a897d4110120f91cc015ebc5adb896d97b1bee0e5dd5542decfd69052",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/res5k1-device.json",
+      "size": 3486,
+      "sha256": "622aa380e41e863191955d6b67e47985b92dc0ff8f643aafa788259494e74268",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/reset-core-label.json",
+      "size": 1442,
+      "sha256": "6bea817e2d82e4b001caffb9e5f38aa8701880489b35f8a7978e85fde5e83d78",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/save-before-audit.json",
+      "size": 868,
+      "sha256": "1e417c471fd28d7a4f27d97a826a41790fa9be94d563fd9b0115bf3ed459fd31",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/shorten-boot-label-connect.json",
+      "size": 1939,
+      "sha256": "6051198882a402d389d24fba89ceb86f0b9d5fa16834cb40465367a486a42f85",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/shorten-boot-label-disconnect.json",
+      "size": 1100,
+      "sha256": "0f82f806f5203d977fb10b168b2afdd9a2194f113eea412f33cb411e55c4d191",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/stage1.json",
+      "size": 26508,
+      "sha256": "d63796e38e8318fadbe81c4ad88e2d1c520b402ce1d3ac3599734e4556afb2a7",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/switch-search.json",
+      "size": 1930,
+      "sha256": "6646f711f298daf39f5c5589ba39ae0e2432fb26c7b15d02b87435288c8d4789",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/title-display-fix.json",
+      "size": 419,
+      "sha256": "8138fab3fa184a0d9cb5c2edf1a7f31223d50270da43b8d819375c55bbe4fee5",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/title-result.json",
+      "size": 427,
+      "sha256": "a7dd4e0008fe91eec6767b07391d8e3ad8c5282d1bb150ecd8cd31e0f56baf7c",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/titleblock-before.json",
+      "size": 4531,
+      "sha256": "40571c7c39f76eeecba560e8c356e42277b8cd76ef619a812e5ad6ac5f5579ca",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/TYPEC-507DSW-ACP24.pdf",
+      "size": 182232,
+      "sha256": "8805553309e0f40a4dbc6aead7a7779fda7b068f8b288148268a8f79b8cf000d",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/typec-drawing-1.png",
+      "size": 400329,
+      "sha256": "7ab6558f4cf5ecf6571ca25f7ebe3f941021844506824f78959a717c5b44386e",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/typec-drawing-2.png",
+      "size": 342741,
+      "sha256": "5dd3a23e7249dcd0d97aa643edb66f022030d3afce6d5662ff6285459daf326d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/usb-current-footprint-native.json",
+      "size": 80905,
+      "sha256": "0e8033715259b01bf52dcd815dc8cf0570373e31efc443016a6c8f43c1cb24ad",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/usb-current-footprint.epru",
+      "size": 48565,
+      "sha256": "74e36e2b236ac91052f3583d2fd7df6e562a001aed9ece7005f266e80ae99a39",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/usb-current.elibz2",
+      "size": 6373,
+      "sha256": "d07c3566eda950908c46bb26471f9bff0b6efb94a224ae9a01d8fb69476d9d4c",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/usb-fix-before.json",
+      "size": 111130,
+      "sha256": "68d585d743d7f17b5100da9c8245451d3a5043df8ffbac2dd073b446ad0b750d",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/usb-fix-drc-unmodified.json",
+      "size": 601,
+      "sha256": "ee47a0653caf6da7efbfa65d8e6f9f799ce9ee2bf6cae2df1da9f2d4ef178efc",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/usb-library-footprint.json",
+      "size": 1168,
+      "sha256": "6cca1241897db14263f47328bf30fe4e9da1e7c712551234e98acc00750ea256",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/usb-original-library-device.json",
+      "size": 3837,
+      "sha256": "3ae450b8f3b49de9dbdb9991ecb076cf00b971f3b6ad97f308570ec41a5f627d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-after.json",
+      "size": 111134,
+      "sha256": "2de52ea2b6958932abafda82f5f4a36d75084d2e8e98fbabe84202772407da50",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-beforecheck.json",
+      "size": 111134,
+      "sha256": "4328b0d3d7fe71479b362b119eb88eae0922b8ef6de5a3455dc2173786a13121",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-bridge.json",
+      "size": 289,
+      "sha256": "ec90412a76c02f4c3603390e4c3e1fdfc90ce3c1b6a6a771671b782870388d8a",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-check.json",
+      "size": 700,
+      "sha256": "55506b69cfc0624b54e4981964388946cb91342e782ca3caf831da6c656fa577",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-current.json",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-drc-after.json",
+      "size": 774,
+      "sha256": "d52b8eeff55c8bba0259f48e0a82dbd7275d0e9a87cadf4fcac2305d97613b18",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-drc.json",
+      "size": 774,
+      "sha256": "5643696ae1edc12c7b91d6f10a007075fe7bad7cd33df2732f7913e8b1002814",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-health.json",
+      "size": 7125,
+      "sha256": "9bc94802e307ac4a4d092d0664fe19f80c976b2108f25029b2e2514f691e8e99",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-netcheck.json",
+      "size": 107,
+      "sha256": "626dc137039d4affebd6e7484a9f0aff767c562bd6c3d08f78b409c548f7d04b",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-reload.json",
+      "size": 3136,
+      "sha256": "7499767bc31cf81a5b48cee0da4a6ce92d3f9fce4601ed79d8b4600d1f454822",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-render.json",
+      "size": 1550,
+      "sha256": "437a0e6d8ba80442eb1e26d56c53277e9dd959c3f84e2c237abc452da84d8e2f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-save.json",
+      "size": 866,
+      "sha256": "fa64da8b1717aa50fe71c71d857dd46886b96dc647cbc09f6c0d6104d872d0f8",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/userfix-schematic.png",
+      "size": 597347,
+      "sha256": "d9c9a43512c8e7fc7d7ac6ed17652a866bafef74dfc2e28c25a5fb01dd0997e2",
+      "reason": "必要证据已归集备份/用途目录"
+    },
+    {
+      "old": "local/onebigbutton-sch/v33-label.json",
+      "size": 1441,
+      "sha256": "f8a1c9d8e76a72fdf3e0a2ac7726359f8a1c924fe8ed2dbb7492ac4472422970",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/vbus-label.json",
+      "size": 1774,
+      "sha256": "852b840b7e059c2492f2b4c2e55f167af532ab2b4dc6411baa8208a06ac35b5d",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/verify_live.py",
+      "size": 2026,
+      "sha256": "6b5896737b1fa933b41f81e54bb7b9e90a9ecd5882ac6f3040f0647496b2f6ba",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/wire-boot-series.json",
+      "size": 1254,
+      "sha256": "0eba609146b2d2f1ab88c06c6c30b516c2cabccfe7ac0d66940ffb4a3076cb86",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/wire-button-external.json",
+      "size": 1399,
+      "sha256": "171037c041a4291fe98aa9bede7dcb14753b3844eb14af2cd11ea4506d7dd314",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/wire-button-node.json",
+      "size": 1661,
+      "sha256": "d2bc5b7076065ccc42ae02156d0b28e58faa4def59e95035c3475eaf3925a140",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/wire-button-rc.json",
+      "size": 1526,
+      "sha256": "daf12caa7e2a6525ef5c6543daf3556939edf2e8bec64523992cd23b8d7d747a",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/wire-led-series.json",
+      "size": 1258,
+      "sha256": "40d64bf60d12148d7559a1203d5a7615b0131b486e9d80c879d07bbb8f7586a3",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/wire-mcu-button.json",
+      "size": 1390,
+      "sha256": "86686a94d19397b19af5530125a3cda82f39dd0fa86da61f886cf21c60e2241f",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/wire-mcu-reset.json",
+      "size": 1390,
+      "sha256": "81ea418d2787b62f550d60789295a16466a462931cfc0303eb94134b39820fbb",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/wire-v33-cap.json",
+      "size": 1458,
+      "sha256": "d1d71a72aaa718c981788830b2137ddece9fda80cf9231d4568a337fea77caa3",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/wire-vcc-cap.json",
+      "size": 1459,
+      "sha256": "180982f5b88f088f4f446724adccad6defeecdfb2fe18d333cac2d65a00f29da",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    },
+    {
+      "old": "local/onebigbutton-sch/write_live_docs.py",
+      "size": 1926,
+      "sha256": "be0007d13465a1066c3fd2595093218a7d3e6caa0a1766f8c18a2f34daef42fd",
+      "reason": "一次性EDA操作记录、脚本、中间数据或重复导图"
+    }
+  ],
+  "deletedCount": 176,
+  "deletedBytes": 6561715,
+  "oldConnectionDirectories": "用户明确答复无关，未处理",
+  "shortcutsFound": 0,
+  "reparsePointsFound": 0
+}
