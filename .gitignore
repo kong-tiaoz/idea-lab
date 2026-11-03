@@ -28,3 +28,6 @@ Thumbs.db
 ~$*
 # Downloaded upstream repositories; keep notes and links in references instead
 references/_clones/
+
+# Local EDA automation cache and duplicate exports
+.easyeda/

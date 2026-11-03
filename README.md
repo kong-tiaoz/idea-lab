@@ -18,7 +18,7 @@
 
 [001 · onebigbutton](projects/onebigbutton/README.md)
 
-目前完成目录与需求整理；硬件选型、固件和外壳尚未实现。
+当前已在嘉立创EDA绘制 CH552G 原理图，器件标准化与 USB1 符号/封装映射问题待处理；固件、PCB 和外壳尚未完成。
 
 ## 目录约定
 

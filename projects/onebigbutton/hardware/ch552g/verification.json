@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-03",
+  "projectUuid": "80e19674525846c4bcaa42bc38b8378f",
+  "pageUuid": "9fcd404002c3eed0",
+  "pinVerification": {
+    "protectedOriginalsUnchanged": true,
+    "partCount": 18,
+    "connectedPins": 62,
+    "noConnectPins": 18,
+    "errors": [],
+    "pinMapPassed": true
+  },
+  "structureCheck": {
+    "passed": true,
+    "summary": {
+      "floatingPins": 0,
+      "componentsWithFloating": 0,
+      "geomNetMismatches": 0,
+      "netMarkerMismatches": 0,
+      "multiNetWires": 0,
+      "wireCrossings": 0,
+      "wireOverPins": 0,
+      "zeroLengthWires": 0,
+      "danglingWires": 0,
+      "duplicateNetMarkers": 0,
+      "titleblockOverlaps": 0,
+      "outOfSheet": 0,
+      "markerOverlaps": 0,
+      "missingPartitions": 0,
+      "redundantNetMarkers": 0,
+      "foldedNetLabels": 0,
+      "reversedNetFlags": 0,
+      "polarityConventionOutliers": 0,
+      "total": 0
+    },
+    "findings": []
+  },
+  "bridgeCheck": {
+    "passed": true,
+    "summary": {
+      "trees": 0,
+      "bridges": 0,
+      "orphans": 0,
+      "orphanFlags": 0,
+      "orphanTrees": 0,
+      "wireTreesTotal": 55
+    },
+    "trees": []
+  },
+  "nativeDRC": {
+    "passed": false,
+    "nativePassed": false,
+    "strict": false,
+    "fatal": 1,
+    "summary": {
+      "fatal": 0,
+      "error": 1,
+      "warn": 0,
+      "info": 0,
+      "unknown": 0,
+      "total": 1
+    },
+    "violations": [
+      {
+        "level": "error",
+        "type": "error",
+        "rule": "PIN2PAD",
+        "raw": {
+          "primitives": [],
+          "rule": "PIN2PAD",
+          "type": "error"
+        }
+      }
+    ],
+    "countsAvailable": true,
+    "detailsAvailable": true
+  },
+  "explicitSave": {
+    "saved": true
+  },
+  "reload": {
+    "schemaVersion": 1,
+    "status": "partial",
+    "windowId": "5cf4d98d-10ea-42a3-9376-9f0e1e1806df",
+    "target": "9fcd404002c3eed0",
+    "documentType": "schematic",
+    "saved": true,
+    "closed": true,
+    "reloaded": "",
+    "activeRestored": "",
+    "startedAt": "2026-11-03T05:47:25.0542925Z",
+    "completedAt": "2026-11-03T05:47:44.2065971Z",
+    "timeSource": "cli-host-observation",
+    "failedStage": "ready",
+    "error": "document 9fcd404002c3eed0 reopened but its schematic data did not settle: document readiness schematic.components.list failed: schematic.components.list failed: connector did not respond — context deadline exceeded; stop writes and retain this failure/context",
+    "targetContext": {
+      "projectUuid": "80e19674525846c4bcaa42bc38b8378f",
+      "projectName": "大按钮2026/11/2",
+      "documentUuid": "9fcd404002c3eed0",
+      "documentType": "schematic",
+      "tabId": "9fcd404002c3eed0@80e19674525846c4bcaa42bc38b8378f"
+    },
+    "steps": [
+      {
+        "stage": "inspect",
+        "action": "document.current",
+        "startedAt": "2026-11-03T05:47:25.0542925Z",
+        "completedAt": "2026-11-03T05:47:25.4615708Z",
+        "requestId": "req_449",
+        "responseCreatedAt": "2026-11-03T05:47:25.4605487Z",
+        "context": {
+          "projectUuid": "80e19674525846c4bcaa42bc38b8378f",
+          "projectName": "大按钮2026/11/2",
+          "documentUuid": "9fcd404002c3eed0",
+          "documentType": "schematic",
+          "tabId": "9fcd404002c3eed0@80e19674525846c4bcaa42bc38b8378f"
+        },
+        "ok": true
+      },
+      {
+        "stage": "save",
+        "action": "schematic.save",
+        "startedAt": "2026-11-03T05:47:25.4615708Z",
+        "completedAt": "2026-11-03T05:47:25.8702621Z",
+        "requestId": "req_450",
+        "responseCreatedAt": "2026-11-03T05:47:25.8694752Z",
+        "context": {
+          "projectUuid": "80e19674525846c4bcaa42bc38b8378f",
+          "projectName": "大按钮2026/11/2",
+          "documentUuid": "9fcd404002c3eed0",
+          "documentType": "schematic",
+          "tabId": "9fcd404002c3eed0@80e19674525846c4bcaa42bc38b8378f"
+        },
+        "ok": true
+      },
+      {
+        "stage": "close",
+        "action": "document.close",
+        "startedAt": "2026-11-03T05:47:25.8702621Z",
+        "completedAt": "2026-11-03T05:47:26.4469063Z",
+        "requestId": "req_451",
+        "responseCreatedAt": "2026-11-03T05:47:26.4458779Z",
+        "context": {
+          "projectUuid": "80e19674525846c4bcaa42bc38b8378f",
+          "projectName": "大按钮2026/11/2"
+        },
+        "ok": true
+      },
+      {
+        "stage": "close-settle",
+        "action": "document.current",
+        "startedAt": "2026-11-03T05:47:26.4469063Z",
+        "completedAt": "2026-11-03T05:47:26.6694057Z",
+        "requestId": "req_452",
+        "responseCreatedAt": "2026-11-03T05:47:26.6683835Z",
+        "ok": false,
+        "error": "document.current failed: No active document."
+      },
+      {
+        "stage": "reopen",
+        "action": "document.open",
+        "startedAt": "2026-11-03T05:47:26.6694057Z",
+        "completedAt": "2026-11-03T05:47:40.7935891Z",
+        "requestId": "req_453",
+        "responseCreatedAt": "2026-11-03T05:47:40.7925755Z",
+        "context": {
+          "projectUuid": "80e19674525846c4bcaa42bc38b8378f",
+          "projectName": "大按钮2026/11/2",
+          "documentUuid": "9fcd404002c3eed0",
+          "documentType": "schematic",
+          "tabId": "9fcd404002c3eed0@80e19674525846c4bcaa42bc38b8378f"
+        },
+        "ok": true
+      },
+      {
+        "stage": "ready",
+        "startedAt": "2026-11-03T05:47:40.7935891Z",
+        "completedAt": "2026-11-03T05:47:44.2065971Z",
+        "ok": false,
+        "error": "document 9fcd404002c3eed0 reopened but its schematic data did not settle: document readiness schematic.components.list failed: schematic.components.list failed: connector did not respond — context deadline exceeded; stop writes and retain this failure/context"
+      }
+    ]
+  },
+  "footprintAudit": [
+    {
+      "component": "USB1",
+      "missingPadNumbers": [
+        "28"
+      ]
+    }
+  ],
+  "archive": {
+    "sha256": "c429d4cb1ac1e517229d65424a2abfa29177d4fe224e8b6bfc9f0147ddd4bcf2",
+    "zipIntegrityVerified": true,
+    "restoreVerified": false
+  },
+  "limitations": [
+    "USB1 protected library footprint has no pad 28; native DRC not passed.",
+    "Reload close/reopen succeeded but short readiness probe timed out; subsequent complete live pin readback passed.",
+    "PCB, firmware, manufacturing and hardware behavior not verified."
+  ]
+}

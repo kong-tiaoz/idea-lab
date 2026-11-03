@@ -2,6 +2,6 @@
 
 | 编号 | 项目 | 状态 | 下一步 |
 | --- | --- | --- | --- |
-| 001 | [onebigbutton](onebigbutton/README.md) | USB 有线 PCB 原型规划，尚未实现 | 选定主控与按钮；Win11 微信输入法，Ctrl + 空格 |
+| 001 | [onebigbutton](onebigbutton/README.md) | CH552G 原理图已绘制，待标准化 | 处理 USB1 28 脚映射并确定 PCB 机械约束 |
 
 每个项目自行写明安装、运行、硬件依赖与实测方法；可运行的软件统一从 VS Code 打开和操作。

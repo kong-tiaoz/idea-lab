@@ -6,9 +6,9 @@
 
 ## 当前状态
 
-目录和需求已建立，尚未选定器件、编写固件或验证切换效果。
+已现场绘制 CH552G 原理图，保留用户原有 U1 与 USB1。USB1 的符号/封装映射问题待器件标准化处理；固件、PCB 与实测尚未完成。
 
-已有 [A0 原理图接线参考](hardware/schematic-reference/README.md)，由用户自行在嘉立创EDA连接；尚未完成原生原理图与 PCB。
+查看 [当前 CH552G 原理图、工程与连接表](hardware/ch552g/README.md)。历史 [A0 RP2040 参考图](hardware/schematic-reference/README.md) 已被取代。
 
 首版：USB 有线，Windows 11 + 微信输入法，模拟 Ctrl + 空格；直接制作 PCB 原型，跳过面包板。
 
